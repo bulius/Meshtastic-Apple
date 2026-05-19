@@ -57,7 +57,9 @@ enum MeshtasticSchemaV1: VersionedSchema {
 			// Discovery entities
 			DiscoverySessionEntity.self,
 			DiscoveryPresetResultEntity.self,
-			DiscoveredNodeEntity.self
+			DiscoveredNodeEntity.self,
+			// MeshKit entities
+			BuddyCheckConfiguration.self
 		]
 	}
 }
