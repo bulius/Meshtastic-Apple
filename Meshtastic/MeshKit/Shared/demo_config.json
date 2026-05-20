@@ -1,0 +1,142 @@
+{
+  "pals": [
+    {
+      "id": "dad",
+      "name": "Dad",
+      "shortName": "DAD",
+      "role": 0,
+      "isOnline": true,
+      "lastHeardMinutesAgo": 1,
+      "batteryLevel": 87,
+      "hopsAway": 0,
+      "rssi": -62,
+      "snr": 10.5,
+      "encrypted": true,
+      "hasPosition": true,
+      "latitude": 37.9040,
+      "longitude": -122.5965,
+      "altitude": 220,
+      "buddyCheckEnabled": true,
+      "buddyCheckThresholdMinutes": 15,
+      "palColorIndex": 0
+    },
+    {
+      "id": "mom",
+      "name": "Mom",
+      "shortName": "MOM",
+      "role": 0,
+      "isOnline": true,
+      "lastHeardMinutesAgo": 3,
+      "batteryLevel": 74,
+      "hopsAway": 0,
+      "rssi": -71,
+      "snr": 7.2,
+      "encrypted": true,
+      "hasPosition": true,
+      "latitude": 37.9045,
+      "longitude": -122.5958,
+      "altitude": 225,
+      "buddyCheckEnabled": true,
+      "buddyCheckThresholdMinutes": 15,
+      "palColorIndex": 1
+    },
+    {
+      "id": "mia",
+      "name": "Mia",
+      "shortName": "MIA",
+      "role": 0,
+      "isOnline": true,
+      "lastHeardMinutesAgo": 7,
+      "batteryLevel": 52,
+      "hopsAway": 1,
+      "rssi": -88,
+      "snr": 3.1,
+      "encrypted": true,
+      "hasPosition": true,
+      "latitude": 37.9058,
+      "longitude": -122.5940,
+      "altitude": 280,
+      "buddyCheckEnabled": true,
+      "buddyCheckThresholdMinutes": 15,
+      "palColorIndex": 2
+    },
+    {
+      "id": "jake",
+      "name": "Jake",
+      "shortName": "JKE",
+      "role": 0,
+      "isOnline": true,
+      "lastHeardMinutesAgo": 12,
+      "batteryLevel": 34,
+      "hopsAway": 2,
+      "rssi": -95,
+      "snr": 0.8,
+      "encrypted": true,
+      "hasPosition": true,
+      "latitude": 37.9020,
+      "longitude": -122.5980,
+      "altitude": 195,
+      "buddyCheckEnabled": true,
+      "buddyCheckThresholdMinutes": 15,
+      "palColorIndex": 3
+    },
+    {
+      "id": "repeater",
+      "name": "Camp Repeater",
+      "shortName": "RPT",
+      "role": 4,
+      "isOnline": true,
+      "lastHeardMinutesAgo": 0,
+      "batteryLevel": 95,
+      "hopsAway": 0,
+      "rssi": -55,
+      "snr": 12.0,
+      "encrypted": true,
+      "hasPosition": true,
+      "latitude": 37.9035,
+      "longitude": -122.5970,
+      "altitude": 350,
+      "buddyCheckEnabled": false,
+      "buddyCheckThresholdMinutes": 30,
+      "palColorIndex": 4
+    }
+  ],
+  "messages": [
+    {
+      "fromPalId": "mom",
+      "text": "Heading back to camp",
+      "minutesAgo": 5,
+      "acked": true,
+      "read": true
+    },
+    {
+      "fromPalId": "mia",
+      "text": "Found a cool tide pool!",
+      "minutesAgo": 8,
+      "acked": true,
+      "read": false
+    },
+    {
+      "fromPalId": "jake",
+      "text": "At the creek",
+      "minutesAgo": 15,
+      "acked": true,
+      "read": true
+    },
+    {
+      "fromPalId": "dad",
+      "text": "Starting the fire soon",
+      "minutesAgo": 2,
+      "acked": true,
+      "read": true
+    }
+  ],
+  "features": {
+    "buddyCheckEnabled": true,
+    "quickMessagesEnabled": true,
+    "familyModeEnabled": false,
+    "nodeProfilesEnabled": true,
+    "trailBreadcrumbsEnabled": true,
+    "kidViewEnabled": false
+  }
+}

@@ -7,6 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		"'AA000201CPLAY000000000002'" = {isa = PBXBuildFile; fileRef = AA000201CPLAY000000000001; };
+		"'AA000201CPLAY000000000004'" = {isa = PBXBuildFile; fileRef = AA000201CPLAY000000000003; };
+		"'AA000301CPTST000000000002'" = {isa = PBXBuildFile; fileRef = AA000301CPTST000000000001; };
+		"'AA000401SIRI000000000002'" = {isa = PBXBuildFile; fileRef = AA000401SIRI000000000001; };
+		"'AA0005WTCH00000000BF0001'" = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0001; };
+		"'AA0005WTCH00000000BF0002'" = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0002; };
+		"'AA0005WTCH00000000BF0003'" = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0003; };
+		"'AA0005WTCH00000000BF0004'" = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0004; };
+		"'AA0005WTCH00000000BF0005'" = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0005; };
+		"'AA0005WTCH00000000BF0006'" = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0006; };
+		"'AA0005WTCH00000000BF0007'" = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0007; };
+		"'AA0005WTCH00000000BF0008'" = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0008; };
+		"'AA0005WTCH00000000BF0009'" = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0009; };
+		"'AA0005WTCH00000000BF0011'" = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0012; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		"'AA0005WTCH00000000BF0013'" = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0013; };
+		"'AA003DOC0000002000000001'" = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000001; };
+		"'AA003DOC0000002000000002'" = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000002; };
+		"'AA003DOC0000002000000003'" = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000003; };
+		"'AA003DOC0000002000000004'" = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000004; };
+		"'AA003DOC0000002000000005'" = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000005; };
+		"'AA003DOC0000002000000006'" = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000006; };
+		"'AA003DOC0000002000000007'" = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000007; };
+		"'AA003DOC0000002000000008'" = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000008; };
+		"'AA003DOC0000004000000001'" = {isa = PBXBuildFile; fileRef = AA003DOC0000005000000001; };
+		"'AA003FM00000002000000001'" = {isa = PBXBuildFile; fileRef = AA003FM00000001000000001; };
+		"'AA004FMT0000002000000001'" = {isa = PBXBuildFile; fileRef = AA004FMT0000001000000001; };
+		"'AA004FMT0000002000000002'" = {isa = PBXBuildFile; fileRef = AA004FMT0000001000000002; };
+		"'AA004FMT0000002000000003'" = {isa = PBXBuildFile; fileRef = AA004FMT0000001000000003; };
+		"'AA004FMT0000002000000004'" = {isa = PBXBuildFile; fileRef = AA004FMT0000001000000004; };
+		"'AA009CTF0000002000000001'" = {isa = PBXBuildFile; fileRef = AA009CTF0000001000000001; };
+		"'AA009DTU0000002000000001'" = {isa = PBXBuildFile; fileRef = AA009DTU0000001000000001; };
+		"'AA009MCT0000002000000001'" = {isa = PBXBuildFile; fileRef = AA009MCT0000001000000001; };
+		"'AA009MDC0000002000000001'" = {isa = PBXBuildFile; fileRef = AA009MDC0000001000000001; };
+		"'AA00SDBF0001'" = {isa = PBXBuildFile; fileRef = AA00SDRF0001; };
+		"'AA00SDBF0002'" = {isa = PBXBuildFile; fileRef = AA00SDRF0002; };
+		"'AA00SDBF0003'" = {isa = PBXBuildFile; fileRef = AA00SDRF0003; };
+		"'DD000001NODNAVTST00000001'" = {isa = PBXBuildFile; fileRef = DD000001NODNAVTST00000000; };
+		"'DD000002STREXTTST00000001'" = {isa = PBXBuildFile; fileRef = DD000002STREXTTST00000000; };
+		"'DD000003NUMEXTTST00000001'" = {isa = PBXBuildFile; fileRef = DD000003NUMEXTTST00000000; };
+		"'DD000004URLTST0000000001'" = {isa = PBXBuildFile; fileRef = DD000004URLTST0000000000; };
+		"'DD000005ENUMTST000000001'" = {isa = PBXBuildFile; fileRef = DD000005ENUMTST000000000; };
+		"'DD000006GEOTST0000000001'" = {isa = PBXBuildFile; fileRef = DD000006GEOTST0000000000; };
+		"'DD000007LORATST000000001'" = {isa = PBXBuildFile; fileRef = DD000007LORATST000000000; };
+		"'DD000008APPSTST000000001'" = {isa = PBXBuildFile; fileRef = DD000008APPSTST000000000; };
+		"'DD000009INTVTST000000001'" = {isa = PBXBuildFile; fileRef = DD000009INTVTST000000000; };
+		"'DD00000AEXTNTST000000001'" = {isa = PBXBuildFile; fileRef = DD00000AEXTNTST000000000; };
+		"'DD00000BTAKCTST000000001'" = {isa = PBXBuildFile; fileRef = DD00000BTAKCTST000000000; };
+		"'DD00000CCOTTST0000000001'" = {isa = PBXBuildFile; fileRef = DD00000CCOTTST0000000000; };
+		"'DD00000DGEOJSNTST0000001'" = {isa = PBXBuildFile; fileRef = DD00000DGEOJSNTST0000000; };
+		"'DD00000ETAKBRGTST0000001'" = {isa = PBXBuildFile; fileRef = DD00000ETAKBRGTST0000000; };
+		"'DD00000FCOTXMLTST0000001'" = {isa = PBXBuildFile; fileRef = DD00000FCOTXMLTST0000000; };
+		"'DD000010GENCOTTST0000001'" = {isa = PBXBuildFile; fileRef = DD000010GENCOTTST0000000; };
+		"'DD000011UTILENTST0000001'" = {isa = PBXBuildFile; fileRef = DD000011UTILENTST0000000; };
+		"'DD000012COTEXTTST0000001'" = {isa = PBXBuildFile; fileRef = DD000012COTEXTTST0000000; };
+		"'DD000013FWAPITST00000001'" = {isa = PBXBuildFile; fileRef = DD000013FWAPITST00000000; };
+		"'DD000014RTRDLTST00000001'" = {isa = PBXBuildFile; fileRef = DD000014RTRDLTST00000000; };
+		"'DD000016NAVSTATST00000001'" = {isa = PBXBuildFile; fileRef = DD000016NAVSTATST00000000; };
+		"'DD000017MTRVZTST00000001'" = {isa = PBXBuildFile; fileRef = DD000017MTRVZTST00000000; };
+		"'DD000018RTMISCTST0000001'" = {isa = PBXBuildFile; fileRef = DD000018RTMISCTST0000000; };
+		"'DD000019NYMEACTST0000001'" = {isa = PBXBuildFile; fileRef = DD000019NYMEACTST0000000; };
+		"'DD00001AASYNCCTST0000001'" = {isa = PBXBuildFile; fileRef = DD00001AASYNCCTST0000000; };
+		"'DD00001BINTCVRTST0000001'" = {isa = PBXBuildFile; fileRef = DD00001BINTCVRTST0000000; };
+		"'DD00001CMAPDATTST0000001'" = {isa = PBXBuildFile; fileRef = DD00001CMAPDATTST0000000; };
+		"'DD00001DCDENTTST00000001'" = {isa = PBXBuildFile; fileRef = DD00001DCDENTTST00000000; };
+		"'DD00001EURLDETTST0000001'" = {isa = PBXBuildFile; fileRef = DD00001EURLDETTST0000000; };
+		"'DD00001FFWVMERRTST000001'" = {isa = PBXBuildFile; fileRef = DD00001FFWVMERRTST000000; };
+		"'DD000020TAKBRDTST0000001'" = {isa = PBXBuildFile; fileRef = DD000020TAKBRDTST0000000; };
+		"'DD000021ENMCMPTST0000001'" = {isa = PBXBuildFile; fileRef = DD000021ENMCMPTST0000000; };
+		"'DD000022GEOJSNCFG0000001'" = {isa = PBXBuildFile; fileRef = DD000022GEOJSNCFG0000000; };
+		"'DD000023EXTDETTST0000001'" = {isa = PBXBuildFile; fileRef = DD000023EXTDETTST0000000; };
+		"'DD000024ENMBATTST0000001'" = {isa = PBXBuildFile; fileRef = DD000024ENMBATTST0000000; };
+		"'DD000025COTMSGDTL0000001'" = {isa = PBXBuildFile; fileRef = DD000025COTMSGDTL0000000; };
+		"'DD000026STREXTDTL0000001'" = {isa = PBXBuildFile; fileRef = DD000026STREXTDTL0000000; };
+		"'DD000027REMEUTLTST000001'" = {isa = PBXBuildFile; fileRef = DD000027REMEUTLTST000000; };
+		"'DD000029APSTFWTST0000001'" = {isa = PBXBuildFile; fileRef = DD000029APSTFWTST0000000; };
+		"'DD00002AINTREMTST00000001'" = {isa = PBXBuildFile; fileRef = DD00002AINTREMTST00000000; };
+		"'DD00002BMSHPKTELTST000001'" = {isa = PBXBuildFile; fileRef = DD00002BMSHPKTELTST000000; };
+		"'DD00002DSNPVWTST000000001'" = {isa = PBXBuildFile; fileRef = DD00002DSNPVWTST000000000; };
+		"'DD00002ESDMIGTST000000001'" = {isa = PBXBuildFile; fileRef = DD00002ESDMIGTST000000000; };
+		"'DD00002FSHRDTSTCNT000001'" = {isa = PBXBuildFile; fileRef = DD00002FSHRDTSTCNT000000; };
+		"'DD000030EVTFWNTST0000001'" = {isa = PBXBuildFile; fileRef = DD000030EVTFWNTST0000000; };
+		"'DD000031FWEDTENUM0000001'" = {isa = PBXBuildFile; fileRef = DD000031FWEDTENUM0000000; };
+		"'DD00003ASUPPORTLVL0000001'" = {isa = PBXBuildFile; fileRef = DD00003ASUPPORTLVL0000000; };
+		"'DD00003C000SNAP00000001'" = {isa = PBXBuildFile; productRef = DD00003B000SNAP00000000; };
+		03EC4CE5B6178BF0851EC994 /* BuddyCheckSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08954CB9A744689896AF5931 /* BuddyCheckSettingsView.swift */; };
 		0B9642EC0DB1B971CB26E8AE /* RadarSweepView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E06A9BCC789BD452DFA9CFB /* RadarSweepView.swift */; };
 		102B5EAB2E172F41003D191E /* DatadogCore in Frameworks */ = {isa = PBXBuildFile; productRef = 102B5EAA2E172F41003D191E /* DatadogCore */; };
 		102B5EAD2E172F41003D191E /* DatadogCrashReporting in Frameworks */ = {isa = PBXBuildFile; productRef = 102B5EAC2E172F41003D191E /* DatadogCrashReporting */; };
@@ -19,8 +104,8 @@
 		10D109F42E2047D600536CE6 /* DatadogTrace in Frameworks */ = {isa = PBXBuildFile; productRef = 10D109F32E2047D600536CE6 /* DatadogTrace */; };
 		10D80CF7AD2B4269BE0A4933 /* MeshtasticSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38DF7D72AA0A450399DBC592 /* MeshtasticSchema.swift */; };
 		1396606FC903D7DA662B6326 /* DiscoveryModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C6057F9508D4356DAF411F /* DiscoveryModelTests.swift */; };
-		1B6147239C34FA04FD73D072 /* MeshKitSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78334FAA8D783CC61C806B3B /* MeshKitSpacing.swift */; };
-		1D7849F19312CE446CA5591B /* BuddyCheckConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B24022B22A096210F800BB /* BuddyCheckConfiguration.swift */; };
+		14934794BBF4E7FE1FCEDF8D /* BuddyCheckConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CE24C4391CC8F0804E069AD /* BuddyCheckConfiguration.swift */; };
+		1E5A44C3A639CBEBA97557A1 /* MeshKitShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D4494497405D43EF67212A /* MeshKitShadow.swift */; };
 		230A98402EF86A44004D87F1 /* AsyncCentral.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230A983F2EF86A44004D87F1 /* AsyncCentral.swift */; };
 		230A98422EF86AA9004D87F1 /* ESP32BLEOTAViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230A98412EF86AA9004D87F1 /* ESP32BLEOTAViewModel.swift */; };
 		230BC3972E31071E0046BF2A /* AccessoryManager+Discovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230BC3962E31071E0046BF2A /* AccessoryManager+Discovery.swift */; };
@@ -116,13 +201,14 @@
 		25F5D5D12C4375DF008036E3 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F5D5D02C4375DF008036E3 /* RouterTests.swift */; };
 		2849A5E4CE9FDC1DB33DFA34 /* TAKConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01028778B8BFD81F7A039593 /* TAKConnection.swift */; };
 		300424F80C4A445A0FBAE82D /* TAKMeshtasticBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D006C85B250291D5925F30 /* TAKMeshtasticBridge.swift */; };
+		35584D839D6557F82AA54AA8 /* PalCharacterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EC6494E867EC630FC491F1E /* PalCharacterView.swift */; };
 		3D3417B42E2730EC006A988B /* GeoJSONOverlayManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3417B32E2730EC006A988B /* GeoJSONOverlayManager.swift */; };
 		3D3417C82E29D38A006A988B /* GeoJSONOverlayConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3417C72E29D38A006A988B /* GeoJSONOverlayConfig.swift */; };
 		3D3417D22E2DC260006A988B /* MapDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3417D12E2DC260006A988B /* MapDataManager.swift */; };
 		3D3417D42E2DC293006A988B /* MapDataFiles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D3417D32E2DC293006A988B /* MapDataFiles.swift */; };
 		43C0CB306098FD005C2D489F /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA63632A10C2DD076FA222BE /* IntentHandler.swift */; };
 		48E682ECE71246C3BFBD6B8F /* ChannelEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45E6EDE744E3446FA1084499 /* ChannelEntity.swift */; };
-		551C4484A43B1AC419FD787A /* BuddyCheckOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E3477087C6FC705419E82D /* BuddyCheckOverlay.swift */; };
+		4E2C4065B641DC677B9BF419 /* FriendMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98534C52B32721FA9F15F068 /* FriendMapView.swift */; };
 		5D3AFC6F08ED4C909C830C55 /* TelemetryEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31483AF5F5354D3481698E32 /* TelemetryEntity.swift */; };
 		6467579F9E9E4B0EAA009615 /* MeshtasticSchemaV1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05E0BD1A81CF4F6A90D56CE3 /* MeshtasticSchemaV1.swift */; };
 		655AF7816E76D5F310DF87A6 /* FountainCodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F203877F307073096C89179 /* FountainCodec.swift */; };
@@ -132,14 +218,14 @@
 		6DA39D8E2A92DC52007E311C /* MeshtasticAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DA39D8D2A92DC52007E311C /* MeshtasticAppDelegate.swift */; };
 		6DEDA55A2A957B8E00321D2E /* DetectionSensorLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDA5592A957B8E00321D2E /* DetectionSensorLog.swift */; };
 		6DEDA55C2A9592F900321D2E /* MessageEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DEDA55B2A9592F900321D2E /* MessageEntityExtension.swift */; };
+		6E374B66BA0FD4EADE56BC76 /* MeshKitTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECA4B709C8A4D256ADBEDB0 /* MeshKitTypography.swift */; };
 		70A5B362F7EC4F14A99A8C39 /* UserEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 918722D2C1474B2D99ED01DC /* UserEntity.swift */; };
+		715546348FF0F46313CA4C4A /* MeshKitColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21BA42C488D9E546934AE35F /* MeshKitColors.swift */; };
 		74BEA4429B3945AEBA11E977 /* MeshtasticMigrationPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAEAD87807B4F34820A60C2 /* MeshtasticMigrationPlan.swift */; };
 		7717E5954788B23527BACF65 /* IntentMessageConverters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39D80697D5BB72C4566988E0 /* IntentMessageConverters.swift */; };
 		7B1684B5E1AF4137829C03B8 /* TraceRouteModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8D66A4063FE4E868CD30D3C /* TraceRouteModels.swift */; };
 		7CCBCA0251DAB58FD9D63D06 /* GenericCoTHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B62B5CB54395476C3A924 /* GenericCoTHandler.swift */; };
-		7CE647C7962139F3FAAA3561 /* BuddyCheckBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75DB42619F3AC5F8A6B8E011 /* BuddyCheckBanner.swift */; };
 		82F6BD3326F1BFEAF0F16723 /* DiscoveryPresetResultEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF19C19E9E7EE08A3462338E /* DiscoveryPresetResultEntity.swift */; };
-		8331473180FAFB95DD824397 /* MeshKitColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE80497DAA9712B4A01CB337 /* MeshKitColors.swift */; };
 		8398407DBA32EE7CFC16A385 /* TAKDataPackageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9155703C39B55FC9DDF3E4C1 /* TAKDataPackageGenerator.swift */; };
 		84468ADE09D001043DECFD86 /* DiscoveredNodeEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEC437CA60D4A60C870E63CA /* DiscoveredNodeEntity.swift */; };
 		85D0F28AE7CE44C39B6BEBF8 /* MyInfoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC5970BC1CAF4B66999C7248 /* MyInfoEntity.swift */; };
@@ -150,50 +236,16 @@
 		8D3F8A412D44C2A6009EAAA4 /* PowerMetricsLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D3F8A402D44C2A6009EAAA4 /* PowerMetricsLog.swift */; };
 		8E587743574CE17703E892C6 /* Certificates in Resources */ = {isa = PBXBuildFile; fileRef = 518D504DED9874EBF9D76578 /* Certificates */; };
 		8EED425B7820DA4FEB40C375 /* CoTXMLParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 748E4806582595DE80D455CD /* CoTXMLParser.swift */; };
+		918945FE8FC18685275D2015 /* MeshKitSpacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57374AA5B94909CCDEE1B1B4 /* MeshKitSpacing.swift */; };
 		93FFCD83202042FB85B47CFD /* RouteModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB55D64F064C45ADBD31ABF8 /* RouteModels.swift */; };
 		9604373EEB96801AA89DF48C /* EXICodec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D0A8ABAEF1E587683970927 /* EXICodec.swift */; };
+		98A74D578000C8B916D7BBE3 /* DemoModeSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8B440E92EA0FBE9DA867EE /* DemoModeSettingsView.swift */; };
 		9BC51D7EF97090D149658843 /* SetMessageAttributeIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDA6A18109101FA06A9FBBFB /* SetMessageAttributeIntentHandler.swift */; };
 		9C744FC4C34549008EADCA4E /* NodeInfoEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7101240749F24E96835A040A /* NodeInfoEntity.swift */; };
 		A5339E2F74E83F8FC41EEE33 /* TAKServerConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0618E6D0DF90B74EE32E6C06 /* TAKServerConfig.swift */; };
 		AA000001303050030000B001 /* Color+Brand.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002303050030000B001 /* Color+Brand.swift */; };
 		AA0001012E2730EC00600001 /* ConnectViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA00010022E2730EC0060000 /* ConnectViewTests.swift */; };
 		AA0001032F07A4B000600001 /* TAKModuleConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA0001042F07A4B000600001 /* TAKModuleConfig.swift */; };
-		'AA000201CPLAY000000000002' = {isa = PBXBuildFile; fileRef = AA000201CPLAY000000000001; };
-		'AA000201CPLAY000000000004' = {isa = PBXBuildFile; fileRef = AA000201CPLAY000000000003; };
-		'AA000301CPTST000000000002' = {isa = PBXBuildFile; fileRef = AA000301CPTST000000000001; };
-		'AA000401SIRI000000000002' = {isa = PBXBuildFile; fileRef = AA000401SIRI000000000001; };
-		'AA0005WTCH00000000BF0001' = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0001; };
-		'AA0005WTCH00000000BF0002' = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0002; };
-		'AA0005WTCH00000000BF0003' = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0003; };
-		'AA0005WTCH00000000BF0004' = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0004; };
-		'AA0005WTCH00000000BF0005' = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0005; };
-		'AA0005WTCH00000000BF0006' = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0006; };
-		'AA0005WTCH00000000BF0007' = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0007; };
-		'AA0005WTCH00000000BF0008' = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0008; };
-		'AA0005WTCH00000000BF0009' = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0009; };
-		'AA0005WTCH00000000BF0011' = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0012; platformFilter = ios; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		'AA0005WTCH00000000BF0013' = {isa = PBXBuildFile; fileRef = AA0005WTCH00000000FR0013; };
-		'AA003DOC0000002000000001' = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000001; };
-		'AA003DOC0000002000000002' = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000002; };
-		'AA003DOC0000002000000003' = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000003; };
-		'AA003DOC0000002000000004' = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000004; };
-		'AA003DOC0000002000000005' = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000005; };
-		'AA003DOC0000002000000006' = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000006; };
-		'AA003DOC0000002000000007' = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000007; };
-		'AA003DOC0000002000000008' = {isa = PBXBuildFile; fileRef = AA003DOC0000001000000008; };
-		'AA003DOC0000004000000001' = {isa = PBXBuildFile; fileRef = AA003DOC0000005000000001; };
-		'AA003FM00000002000000001' = {isa = PBXBuildFile; fileRef = AA003FM00000001000000001; };
-		'AA004FMT0000002000000001' = {isa = PBXBuildFile; fileRef = AA004FMT0000001000000001; };
-		'AA004FMT0000002000000002' = {isa = PBXBuildFile; fileRef = AA004FMT0000001000000002; };
-		'AA004FMT0000002000000003' = {isa = PBXBuildFile; fileRef = AA004FMT0000001000000003; };
-		'AA004FMT0000002000000004' = {isa = PBXBuildFile; fileRef = AA004FMT0000001000000004; };
-		'AA009CTF0000002000000001' = {isa = PBXBuildFile; fileRef = AA009CTF0000001000000001; };
-		'AA009DTU0000002000000001' = {isa = PBXBuildFile; fileRef = AA009DTU0000001000000001; };
-		'AA009MCT0000002000000001' = {isa = PBXBuildFile; fileRef = AA009MCT0000001000000001; };
-		'AA009MDC0000002000000001' = {isa = PBXBuildFile; fileRef = AA009MDC0000001000000001; };
-		'AA00SDBF0001' = {isa = PBXBuildFile; fileRef = AA00SDRF0001; };
-		'AA00SDBF0002' = {isa = PBXBuildFile; fileRef = AA00SDRF0002; };
-		'AA00SDBF0003' = {isa = PBXBuildFile; fileRef = AA00SDRF0003; };
 		AA10D0012D00000000000001 /* DiscoverySummaryPDF.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA10D0002D00000000000001 /* DiscoverySummaryPDF.swift */; };
 		AA11223344556677AABB0001 /* DiscoveryTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA11223344556677AABB0002 /* DiscoveryTips.swift */; };
 		AB4622DCF4B1D4115ED00312 /* SendMessageIntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FCB3877F157D9011FA5C6CF /* SendMessageIntentHandler.swift */; };
@@ -205,6 +257,7 @@
 		B16C760DB291CFAB5335EADB /* TAKCertificateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09936BEBD6D82479B2360FDC /* TAKCertificateManager.swift */; };
 		B399E8A42B6F486400E4488E /* RetryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B399E8A32B6F486400E4488E /* RetryButton.swift */; };
 		B3E905B12B71F7F300654D07 /* TextMessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3E905B02B71F7F300654D07 /* TextMessageField.swift */; };
+		B52A44D19B68B4DF748AFFAE /* DemoMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B914A13BD06EB61FE8804C9 /* DemoMode.swift */; };
 		B96123C9177242AFA768AA8F /* DeviceMetadataEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509A1C42A695463093654617 /* DeviceMetadataEntity.swift */; };
 		BC10380F2DD4334400B00BFA /* AddContactIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC10380E2DD4333C00B00BFA /* AddContactIntent.swift */; };
 		BC6B45FF2CB2F98900723CEB /* SaveChannelSettingsIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC6B45FE2CB2F98900723CEB /* SaveChannelSettingsIntent.swift */; };
@@ -222,14 +275,16 @@
 		BCE2D3C52C7AE369008E6199 /* RestartNodeIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE2D3C42C7AE369008E6199 /* RestartNodeIntent.swift */; };
 		BCE2D3C72C7B0D0A008E6199 /* ShortcutsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE2D3C62C7B0D0A008E6199 /* ShortcutsProvider.swift */; };
 		BCE2D3C92C7C377F008E6199 /* FactoryResetNodeIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCE2D3C82C7C377F008E6199 /* FactoryResetNodeIntent.swift */; };
-		BD734033BACE6343F8C0F461 /* BuddyCheckMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78D4FF08ACF04D70C954365 /* BuddyCheckMonitor.swift */; };
 		BD7B1A838F8245A0B6BE56C5 /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCF00CDD3D48C9B9DCA554 /* WatchSessionManager.swift */; };
+		BE5941AAA91DD268ACF37C54 /* BuddyCheckBanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9254E86B2E9BD0F0277DCD9 /* BuddyCheckBanner.swift */; };
+		BECB4A958BC30A069DA52B96 /* LocationPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61994975BE9E38AACC41D614 /* LocationPinView.swift */; };
 		C1B995B38DC97D13D90D9C1A /* DiscoverySummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6FB13C4D4E03503BB1DF8 /* DiscoverySummaryView.swift */; };
 		C54AC9F4DA920A4F718CE21A /* DiscoveryScanEngineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAD14FA280F0A130730DEB93 /* DiscoveryScanEngineTests.swift */; };
 		C79BFC99EDCC89DD45082753 /* DiscoveryScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5CA8BAC814CF82E127EEABF /* DiscoveryScanView.swift */; };
 		D02589957BD040969FCB8663 /* PositionEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = A97241903A924144A3EEB679 /* PositionEntity.swift */; };
 		D748D59A3AF3253FFCDEF8BF /* DiscoveryMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D942B763789DEA044C5EBD6 /* DiscoveryMapView.swift */; };
 		D75A5D73360C42D6B0CB2894 /* MessageEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3204EF969484E549C139730 /* MessageEntity.swift */; };
+		D8DB4D05805290CEB4835B75 /* MeshKitFeatureFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962540648361F7A41C21BDCD /* MeshKitFeatureFlags.swift */; };
 		D93068D32B8129510066FBC8 /* MessageContextMenuItems.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93068D22B8129510066FBC8 /* MessageContextMenuItems.swift */; };
 		D93068D52B812B700066FBC8 /* MessageDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93068D42B812B700066FBC8 /* MessageDestination.swift */; };
 		D93068D72B8146690066FBC8 /* MessageText.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93068D62B8146690066FBC8 /* MessageText.swift */; };
@@ -244,54 +299,6 @@
 		D9C983A02B79D0E800BDBE6A /* AlertButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C9839F2B79D0E800BDBE6A /* AlertButton.swift */; };
 		D9C983A22B79D1A600BDBE6A /* RequestPositionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C983A12B79D1A600BDBE6A /* RequestPositionButton.swift */; };
 		DCC919C6B47C15BB0795456C /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D5AD8037A0D583C614B0597 /* Tools.swift */; };
-		'DD000001NODNAVTST00000001' = {isa = PBXBuildFile; fileRef = DD000001NODNAVTST00000000; };
-		'DD000002STREXTTST00000001' = {isa = PBXBuildFile; fileRef = DD000002STREXTTST00000000; };
-		'DD000003NUMEXTTST00000001' = {isa = PBXBuildFile; fileRef = DD000003NUMEXTTST00000000; };
-		'DD000004URLTST0000000001' = {isa = PBXBuildFile; fileRef = DD000004URLTST0000000000; };
-		'DD000005ENUMTST000000001' = {isa = PBXBuildFile; fileRef = DD000005ENUMTST000000000; };
-		'DD000006GEOTST0000000001' = {isa = PBXBuildFile; fileRef = DD000006GEOTST0000000000; };
-		'DD000007LORATST000000001' = {isa = PBXBuildFile; fileRef = DD000007LORATST000000000; };
-		'DD000008APPSTST000000001' = {isa = PBXBuildFile; fileRef = DD000008APPSTST000000000; };
-		'DD000009INTVTST000000001' = {isa = PBXBuildFile; fileRef = DD000009INTVTST000000000; };
-		'DD00000AEXTNTST000000001' = {isa = PBXBuildFile; fileRef = DD00000AEXTNTST000000000; };
-		'DD00000BTAKCTST000000001' = {isa = PBXBuildFile; fileRef = DD00000BTAKCTST000000000; };
-		'DD00000CCOTTST0000000001' = {isa = PBXBuildFile; fileRef = DD00000CCOTTST0000000000; };
-		'DD00000DGEOJSNTST0000001' = {isa = PBXBuildFile; fileRef = DD00000DGEOJSNTST0000000; };
-		'DD00000ETAKBRGTST0000001' = {isa = PBXBuildFile; fileRef = DD00000ETAKBRGTST0000000; };
-		'DD00000FCOTXMLTST0000001' = {isa = PBXBuildFile; fileRef = DD00000FCOTXMLTST0000000; };
-		'DD000010GENCOTTST0000001' = {isa = PBXBuildFile; fileRef = DD000010GENCOTTST0000000; };
-		'DD000011UTILENTST0000001' = {isa = PBXBuildFile; fileRef = DD000011UTILENTST0000000; };
-		'DD000012COTEXTTST0000001' = {isa = PBXBuildFile; fileRef = DD000012COTEXTTST0000000; };
-		'DD000013FWAPITST00000001' = {isa = PBXBuildFile; fileRef = DD000013FWAPITST00000000; };
-		'DD000014RTRDLTST00000001' = {isa = PBXBuildFile; fileRef = DD000014RTRDLTST00000000; };
-		'DD000016NAVSTATST00000001' = {isa = PBXBuildFile; fileRef = DD000016NAVSTATST00000000; };
-		'DD000017MTRVZTST00000001' = {isa = PBXBuildFile; fileRef = DD000017MTRVZTST00000000; };
-		'DD000018RTMISCTST0000001' = {isa = PBXBuildFile; fileRef = DD000018RTMISCTST0000000; };
-		'DD000019NYMEACTST0000001' = {isa = PBXBuildFile; fileRef = DD000019NYMEACTST0000000; };
-		'DD00001AASYNCCTST0000001' = {isa = PBXBuildFile; fileRef = DD00001AASYNCCTST0000000; };
-		'DD00001BINTCVRTST0000001' = {isa = PBXBuildFile; fileRef = DD00001BINTCVRTST0000000; };
-		'DD00001CMAPDATTST0000001' = {isa = PBXBuildFile; fileRef = DD00001CMAPDATTST0000000; };
-		'DD00001DCDENTTST00000001' = {isa = PBXBuildFile; fileRef = DD00001DCDENTTST00000000; };
-		'DD00001EURLDETTST0000001' = {isa = PBXBuildFile; fileRef = DD00001EURLDETTST0000000; };
-		'DD00001FFWVMERRTST000001' = {isa = PBXBuildFile; fileRef = DD00001FFWVMERRTST000000; };
-		'DD000020TAKBRDTST0000001' = {isa = PBXBuildFile; fileRef = DD000020TAKBRDTST0000000; };
-		'DD000021ENMCMPTST0000001' = {isa = PBXBuildFile; fileRef = DD000021ENMCMPTST0000000; };
-		'DD000022GEOJSNCFG0000001' = {isa = PBXBuildFile; fileRef = DD000022GEOJSNCFG0000000; };
-		'DD000023EXTDETTST0000001' = {isa = PBXBuildFile; fileRef = DD000023EXTDETTST0000000; };
-		'DD000024ENMBATTST0000001' = {isa = PBXBuildFile; fileRef = DD000024ENMBATTST0000000; };
-		'DD000025COTMSGDTL0000001' = {isa = PBXBuildFile; fileRef = DD000025COTMSGDTL0000000; };
-		'DD000026STREXTDTL0000001' = {isa = PBXBuildFile; fileRef = DD000026STREXTDTL0000000; };
-		'DD000027REMEUTLTST000001' = {isa = PBXBuildFile; fileRef = DD000027REMEUTLTST000000; };
-		'DD000029APSTFWTST0000001' = {isa = PBXBuildFile; fileRef = DD000029APSTFWTST0000000; };
-		'DD00002AINTREMTST00000001' = {isa = PBXBuildFile; fileRef = DD00002AINTREMTST00000000; };
-		'DD00002BMSHPKTELTST000001' = {isa = PBXBuildFile; fileRef = DD00002BMSHPKTELTST000000; };
-		'DD00002DSNPVWTST000000001' = {isa = PBXBuildFile; fileRef = DD00002DSNPVWTST000000000; };
-		'DD00002ESDMIGTST000000001' = {isa = PBXBuildFile; fileRef = DD00002ESDMIGTST000000000; };
-		'DD00002FSHRDTSTCNT000001' = {isa = PBXBuildFile; fileRef = DD00002FSHRDTSTCNT000000; };
-		'DD000030EVTFWNTST0000001' = {isa = PBXBuildFile; fileRef = DD000030EVTFWNTST0000000; };
-		'DD000031FWEDTENUM0000001' = {isa = PBXBuildFile; fileRef = DD000031FWEDTENUM0000000; };
-		'DD00003ASUPPORTLVL0000001' = {isa = PBXBuildFile; fileRef = DD00003ASUPPORTLVL0000000; };
-		'DD00003C000SNAP00000001' = {isa = PBXBuildFile; productRef = DD00003B000SNAP00000000; };
 		DD007BAE2AA4E91200F5FA12 /* MyInfoEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD007BAD2AA4E91200F5FA12 /* MyInfoEntityExtension.swift */; };
 		DD007BB02AA5981000F5FA12 /* NodeInfoEntityExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD007BAF2AA5981000F5FA12 /* NodeInfoEntityExtension.swift */; };
 		DD09240001E7FAD600E70001 /* MapLegend.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD09240002E7FAD600E70001 /* MapLegend.swift */; };
@@ -475,27 +482,27 @@
 		DDFFA7472B3A7F3C004730DB /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFA7462B3A7F3C004730DB /* Bundle.swift */; };
 		E340A7CA75194A49AB8763C7 /* WaypointEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E98797BFD67F449B9ACCEDA7 /* WaypointEntity.swift */; };
 		E3ED80145D0E873011982556 /* TAKServerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B37CCEE8B44A4BA123ED118 /* TAKServerManager.swift */; };
+		E8AD4E31B93D31B7974F9A85 /* BuddyCheckMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3E24382A1AA50787361EFCA /* BuddyCheckMonitor.swift */; };
 		EE7E2D900ACAC8053153354A /* DiscoveryScanEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC99855DBF52EBBBE07CEBA9 /* DiscoveryScanEngine.swift */; };
-		F1F547EC94F1DBAF02E3D9F5 /* MeshKitFeatureFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E974F04AFF58BEFB8922E3F /* MeshKitFeatureFlags.swift */; };
-		FB334237B18D4CBBBCEDD8DE /* MeshKitTypography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A54F33BA0935D9066CE6DA /* MeshKitTypography.swift */; };
-		FDAA40E18CC2E7663A973D23 /* BuddyCheckSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27CE4C23BA300A012ED15920 /* BuddyCheckSettingsView.swift */; };
+		F0064CAA936EA0CA946BD962 /* DemoConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E764CAB83F5456385052A43 /* DemoConfig.swift */; };
+		FA574B6A9C65FF9006BB19AB /* BuddyCheckOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907D478EBC618EDDD731B9F4 /* BuddyCheckOverlay.swift */; };
 		FE508F9AF5AD5DA20AA64DBF /* AccessoryManager+TAK.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82232A3CF2DD284ED5B9B8ED /* AccessoryManager+TAK.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		"'AA0005WTCH00000000CX0001'" = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDC2E14C26CE248E0042C5E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AA0005WTCH00000000NT0001;
+			remoteInfo = "Meshtastic Watch App";
+		};
 		25F5D5CB2C4375A8008036E3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = DDC2E14C26CE248E0042C5E4 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = DDC2E15326CE248E0042C5E4;
 			remoteInfo = Meshtastic;
-		};
-		'AA0005WTCH00000000CX0001' = {
-			isa = PBXContainerItemProxy;
-			containerPortal = DDC2E14C26CE248E0042C5E4 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AA0005WTCH00000000NT0001;
-			remoteInfo = "Meshtastic Watch App";
 		};
 		DDDE5A0129AF163E00490C6C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -507,16 +514,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		236CA24D2EE3073100A47F96 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 7;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		'AA0005WTCH00000000CP0001' = {
+		"'AA0005WTCH00000000CP0001'" = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
@@ -525,6 +523,15 @@
 				AA0005WTCH00000000BF0011,
 			);
 			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		236CA24D2EE3073100A47F96 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 7;
+			files = (
+			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		DDDE5A0829AF163F00490C6C /* Embed Foundation Extensions */ = {
@@ -541,16 +548,117 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		"'AA000201CPLAY000000000001'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
+		"'AA000201CPLAY000000000003'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayIntentDonation.swift; sourceTree = "<group>"; };
+		"'AA000301CPTST000000000001'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayTests.swift; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000010'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000011'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000012'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000013'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000014'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000015'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ja; path = ja.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000016'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = da; path = da.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000017'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pl; path = pl.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000018'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000019'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = he; path = he.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000020'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = sr; path = sr.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000021'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = se; path = se.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000022'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/AppIntentVocabulary.plist"; sourceTree = "<group>"; };
+		"'AA000401SIRI000000000023'" = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/AppIntentVocabulary.plist"; sourceTree = "<group>"; };
+		"'AA0005WTCH00000000FR0001'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshtasticWatchApp.swift; sourceTree = "<group>"; };
+		"'AA0005WTCH00000000FR0002'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		"'AA0005WTCH00000000FR0003'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshNode.swift; sourceTree = "<group>"; };
+		"'AA0005WTCH00000000FR0004'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnectivityManager.swift; sourceTree = "<group>"; };
+		"'AA0005WTCH00000000FR0005'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLocationManager.swift; sourceTree = "<group>"; };
+		"'AA0005WTCH00000000FR0006'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxhuntCompassView.swift; sourceTree = "<group>"; };
+		"'AA0005WTCH00000000FR0007'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyNodesListView.swift; sourceTree = "<group>"; };
+		"'AA0005WTCH00000000FR0008'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceConnectionView.swift; sourceTree = "<group>"; };
+		"'AA0005WTCH00000000FR0009'" = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		"'AA0005WTCH00000000FR0010'" = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Meshtastic Watch App.entitlements"; sourceTree = "<group>"; };
+		"'AA0005WTCH00000000FR0012'" = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meshtastic Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		"'AA0005WTCH00000000FR0013'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCircleText.swift; sourceTree = "<group>"; };
+		"'AA003DOC0000001000000001'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocModels.swift; sourceTree = "<group>"; };
+		"'AA003DOC0000001000000002'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocBrowserView.swift; sourceTree = "<group>"; };
+		"'AA003DOC0000001000000003'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocPageView.swift; sourceTree = "<group>"; };
+		"'AA003DOC0000001000000004'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIDocAssistantView.swift; sourceTree = "<group>"; };
+		"'AA003DOC0000001000000005'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocBundleTests.swift; sourceTree = "<group>"; };
+		"'AA003DOC0000001000000006'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocTranslationService.swift; sourceTree = "<group>"; };
+		"'AA003DOC0000001000000007'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TranslationCache.swift; path = Meshtastic/Services/TranslationCache.swift; sourceTree = "<group>"; };
+		"'AA003DOC0000001000000008'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocTranslationTests.swift; sourceTree = "<group>"; };
+		"'AA003DOC0000005000000001'" = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = docs; sourceTree = "<group>"; };
+		"'AA003FM00000001000000001'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoundationModelAvailability.swift; path = Meshtastic/Services/FoundationModelAvailability.swift; sourceTree = "<group>"; };
+		"'AA004FMT0000001000000001'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownFormatting.swift; sourceTree = "<group>"; };
+		"'AA004FMT0000001000000002'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattingToolbarButtons.swift; sourceTree = "<group>"; };
+		"'AA004FMT0000001000000003'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePreview.swift; sourceTree = "<group>"; };
+		"'AA004FMT0000001000000004'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownFormattingTests.swift; sourceTree = "<group>"; };
+		"'AA009CTF0000001000000001'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CommunityTranslationFetcher.swift; path = Meshtastic/Services/CommunityTranslationFetcher.swift; sourceTree = "<group>"; };
+		"'AA009DTU0000001000000001'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DocsTranslationUploader.swift; path = Meshtastic/Services/DocsTranslationUploader.swift; sourceTree = "<group>"; };
+		"'AA009MCT0000001000000001'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownConverterTests.swift; sourceTree = "<group>"; };
+		"'AA009MDC0000001000000001'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MarkdownConverter.swift; path = Meshtastic/Services/MarkdownConverter.swift; sourceTree = "<group>"; };
+		"'AA00SDRF0001'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHardwareImageEntity.swift; sourceTree = "<group>"; };
+		"'AA00SDRF0002'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHardwareTagEntity.swift; sourceTree = "<group>"; };
+		"'AA00SDRF0003'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareReleaseEntity.swift; sourceTree = "<group>"; };
+		"'DD000001NODNAVTST00000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeNavigationTests.swift; sourceTree = "<group>"; };
+		"'DD000002STREXTTST00000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
+		"'DD000003NUMEXTTST00000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericExtensionTests.swift; sourceTree = "<group>"; };
+		"'DD000004URLTST0000000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensionTests.swift; sourceTree = "<group>"; };
+		"'DD000005ENUMTST000000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumTests.swift; sourceTree = "<group>"; };
+		"'DD000006GEOTST0000000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoExtensionTests.swift; sourceTree = "<group>"; };
+		"'DD000007LORATST000000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoraDeviceEnumTests.swift; sourceTree = "<group>"; };
+		"'DD000008APPSTST000000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsEnumTests.swift; sourceTree = "<group>"; };
+		"'DD000009INTVTST000000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalEnumTests.swift; sourceTree = "<group>"; };
+		"'DD00000AEXTNTST000000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
+		"'DD00000BTAKCTST000000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAKCodecTests.swift; sourceTree = "<group>"; };
+		"'DD00000CCOTTST0000000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoTMessageTests.swift; sourceTree = "<group>"; };
+		"'DD00000DGEOJSNTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSONTests.swift; sourceTree = "<group>"; };
+		"'DD00000ETAKBRGTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAKBridgeTests.swift; sourceTree = "<group>"; };
+		"'DD00000FCOTXMLTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoTXMLParserTests.swift; sourceTree = "<group>"; };
+		"'DD000010GENCOTTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCoTHandlerTests.swift; sourceTree = "<group>"; };
+		"'DD000011UTILENTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityAndEnumTests.swift; sourceTree = "<group>"; };
+		"'DD000012COTEXTTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoTExtensionTests.swift; sourceTree = "<group>"; };
+		"'DD000013FWAPITST00000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareAndAPITests.swift; sourceTree = "<group>"; };
+		"'DD000014RTRDLTST00000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterDeepLinkTests.swift; sourceTree = "<group>"; };
+		"'DD000016NAVSTATST00000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStateTests.swift; sourceTree = "<group>"; };
+		"'DD000017MTRVZTST00000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsVisualizationTests.swift; sourceTree = "<group>"; };
+		"'DD000018RTMISCTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAndMiscTests.swift; sourceTree = "<group>"; };
+		"'DD000019NYMEACTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NymeaConstantsTests.swift; sourceTree = "<group>"; };
+		"'DD00001AASYNCCTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncConcurrencyTests.swift; sourceTree = "<group>"; };
+		"'DD00001BINTCVRTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentConverterTests.swift; sourceTree = "<group>"; };
+		"'DD00001CMAPDATTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataModelTests.swift; sourceTree = "<group>"; };
+		"'DD00001DCDENTTST00000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTests.swift; sourceTree = "<group>"; };
+		"'DD00001EURLDETTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensionDetailedTests.swift; sourceTree = "<group>"; };
+		"'DD00001FFWVMERRTST000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareViewModelErrorTests.swift; sourceTree = "<group>"; };
+		"'DD000020TAKBRDTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAKBridgeDetailedTests.swift; sourceTree = "<group>"; };
+		"'DD000021ENMCMPTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumComprehensiveTests.swift; sourceTree = "<group>"; };
+		"'DD000022GEOJSNCFG0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSONOverlayConfigTests.swift; sourceTree = "<group>"; };
+		"'DD000023EXTDETTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDetailedTests.swift; sourceTree = "<group>"; };
+		"'DD000024ENMBATTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumBatchTests.swift; sourceTree = "<group>"; };
+		"'DD000025COTMSGDTL0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoTMessageDetailedTests.swift; sourceTree = "<group>"; };
+		"'DD000026STREXTDTL0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionDetailedTests.swift; sourceTree = "<group>"; };
+		"'DD000027REMEUTLTST000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainingEnumAndUtilTests.swift; sourceTree = "<group>"; };
+		"'DD000029APSTFWTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsAndFirmwareTests.swift; sourceTree = "<group>"; };
+		"'DD00002AINTREMTST00000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentAndRemainingTests.swift; sourceTree = "<group>"; };
+		"'DD00002BMSHPKTELTST000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshPacketsAndTelemetryTests.swift; sourceTree = "<group>"; };
+		"'DD00002DSNPVWTST000000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewSnapshotTests.swift; sourceTree = "<group>"; };
+		"'DD00002ESDMIGTST000000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataMigrationTests.swift; sourceTree = "<group>"; };
+		"'DD00002FSHRDTSTCNT000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestContainer.swift; sourceTree = "<group>"; };
+		"'DD000030EVTFWNTST0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFirmwareNotificationTests.swift; sourceTree = "<group>"; };
+		"'DD000031FWEDTENUM0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareEditionEnum.swift; sourceTree = "<group>"; };
+		"'DD00003ASUPPORTLVL0000000'" = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportLevel.swift; sourceTree = "<group>"; };
 		01028778B8BFD81F7A039593 /* TAKConnection.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TAKConnection.swift; sourceTree = "<group>"; };
 		05E0BD1A81CF4F6A90D56CE3 /* MeshtasticSchemaV1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshtasticSchemaV1.swift; sourceTree = "<group>"; };
 		0618E6D0DF90B74EE32E6C06 /* TAKServerConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TAKServerConfig.swift; sourceTree = "<group>"; };
+		08954CB9A744689896AF5931 /* BuddyCheckSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuddyCheckSettingsView.swift; path = Meshtastic/MeshKit/Features/BuddyCheck/BuddyCheckSettingsView.swift; sourceTree = SOURCE_ROOT; };
 		09936BEBD6D82479B2360FDC /* TAKCertificateManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TAKCertificateManager.swift; sourceTree = "<group>"; };
 		0E644AE784C52500A9241481 /* SearchForMessagesIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchForMessagesIntentHandler.swift; sourceTree = "<group>"; };
+		0EC6494E867EC630FC491F1E /* PalCharacterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PalCharacterView.swift; path = Meshtastic/MeshKit/Design/PalCharacterView.swift; sourceTree = SOURCE_ROOT; };
 		10794B242F8C2C90000CA23F /* RouteDataPackageGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteDataPackageGenerator.swift; sourceTree = "<group>"; };
 		108FFECA2DD3F43C00BFAA81 /* ShareContactQRDialog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareContactQRDialog.swift; sourceTree = "<group>"; };
 		108FFECC2DD4005600BFAA81 /* NodeInfoEntityToNodeInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeInfoEntityToNodeInfo.swift; sourceTree = "<group>"; };
 		1CAEAD87807B4F34820A60C2 /* MeshtasticMigrationPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshtasticMigrationPlan.swift; sourceTree = "<group>"; };
 		1D5AD8037A0D583C614B0597 /* Tools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
+		21BA42C488D9E546934AE35F /* MeshKitColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeshKitColors.swift; path = Meshtastic/MeshKit/Design/MeshKitColors.swift; sourceTree = SOURCE_ROOT; };
+		22D4494497405D43EF67212A /* MeshKitShadow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeshKitShadow.swift; path = Meshtastic/MeshKit/Design/MeshKitShadow.swift; sourceTree = SOURCE_ROOT; };
 		230A983F2EF86A44004D87F1 /* AsyncCentral.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncCentral.swift; sourceTree = "<group>"; };
 		230A98412EF86AA9004D87F1 /* ESP32BLEOTAViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP32BLEOTAViewModel.swift; sourceTree = "<group>"; };
 		230BC3962E31071E0046BF2A /* AccessoryManager+Discovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccessoryManager+Discovery.swift"; sourceTree = "<group>"; };
@@ -604,7 +712,6 @@
 		23825FFE2EF6E79C00C25543 /* ESP32BLEOTASheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP32BLEOTASheet.swift; sourceTree = "<group>"; };
 		2388EC392EDF8A1400F6F982 /* DFUModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DFUModel.swift; sourceTree = "<group>"; };
 		23A1AFB62E42BD2500E46C96 /* RXTXIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RXTXIndicatorView.swift; sourceTree = "<group>"; };
-		23A54F33BA0935D9066CE6DA /* MeshKitTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeshKitTypography.swift; path = Meshtastic/MeshKit/Design/MeshKitTypography.swift; sourceTree = SOURCE_ROOT; };
 		23AB0E652EE35E0200AFA09D /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		23AD54682E2A6EAA0046E9AB /* AccessoryManager+FromRadio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccessoryManager+FromRadio.swift"; sourceTree = "<group>"; };
 		23AD546A2E2AA5A80046E9AB /* AccessoryManager+ToRadio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccessoryManager+ToRadio.swift"; sourceTree = "<group>"; };
@@ -637,12 +744,11 @@
 		25F5D5C12C3F6E4B008036E3 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		25F5D5C72C4375A8008036E3 /* MeshtasticTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeshtasticTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		25F5D5D02C4375DF008036E3 /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
-		27CE4C23BA300A012ED15920 /* BuddyCheckSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuddyCheckSettingsView.swift; path = Meshtastic/MeshKit/Features/BuddyCheck/BuddyCheckSettingsView.swift; sourceTree = SOURCE_ROOT; };
 		2B37CCEE8B44A4BA123ED118 /* TAKServerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TAKServerManager.swift; sourceTree = "<group>"; };
-		2E974F04AFF58BEFB8922E3F /* MeshKitFeatureFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeshKitFeatureFlags.swift; path = Meshtastic/MeshKit/Shared/MeshKitFeatureFlags.swift; sourceTree = SOURCE_ROOT; };
 		31483AF5F5354D3481698E32 /* TelemetryEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelemetryEntity.swift; sourceTree = "<group>"; };
 		38DF7D72AA0A450399DBC592 /* MeshtasticSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshtasticSchema.swift; sourceTree = "<group>"; };
 		39D80697D5BB72C4566988E0 /* IntentMessageConverters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentMessageConverters.swift; sourceTree = "<group>"; };
+		3B914A13BD06EB61FE8804C9 /* DemoMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoMode.swift; path = Meshtastic/MeshKit/Shared/DemoMode.swift; sourceTree = SOURCE_ROOT; };
 		3D0A8ABAEF1E587683970927 /* EXICodec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EXICodec.swift; sourceTree = "<group>"; };
 		3D3417B32E2730EC006A988B /* GeoJSONOverlayManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSONOverlayManager.swift; sourceTree = "<group>"; };
 		3D3417C72E29D38A006A988B /* GeoJSONOverlayConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSONOverlayConfig.swift; sourceTree = "<group>"; };
@@ -658,83 +764,39 @@
 		4E06A9BCC789BD452DFA9CFB /* RadarSweepView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadarSweepView.swift; sourceTree = "<group>"; };
 		509A1C42A695463093654617 /* DeviceMetadataEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceMetadataEntity.swift; sourceTree = "<group>"; };
 		518D504DED9874EBF9D76578 /* Certificates */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = Certificates; sourceTree = "<group>"; };
+		57374AA5B94909CCDEE1B1B4 /* MeshKitSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeshKitSpacing.swift; path = Meshtastic/MeshKit/Design/MeshKitSpacing.swift; sourceTree = SOURCE_ROOT; };
 		5FCB3877F157D9011FA5C6CF /* SendMessageIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendMessageIntentHandler.swift; sourceTree = "<group>"; };
+		61994975BE9E38AACC41D614 /* LocationPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationPinView.swift; path = Meshtastic/MeshKit/Features/FamilyMode/LocationPinView.swift; sourceTree = SOURCE_ROOT; };
 		64C6057F9508D4356DAF411F /* DiscoveryModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryModelTests.swift; sourceTree = "<group>"; };
 		6D825E612C34786C008DBEE4 /* CommonRegex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonRegex.swift; sourceTree = "<group>"; };
 		6DA39D8D2A92DC52007E311C /* MeshtasticAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshtasticAppDelegate.swift; sourceTree = "<group>"; };
 		6DEDA5592A957B8E00321D2E /* DetectionSensorLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionSensorLog.swift; sourceTree = "<group>"; };
 		6DEDA55B2A9592F900321D2E /* MessageEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEntityExtension.swift; sourceTree = "<group>"; };
+		6F8B440E92EA0FBE9DA867EE /* DemoModeSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoModeSettingsView.swift; path = Meshtastic/MeshKit/Shared/DemoModeSettingsView.swift; sourceTree = SOURCE_ROOT; };
 		7101240749F24E96835A040A /* NodeInfoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeInfoEntity.swift; sourceTree = "<group>"; };
 		748E4806582595DE80D455CD /* CoTXMLParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = CoTXMLParser.swift; sourceTree = "<group>"; };
-		75DB42619F3AC5F8A6B8E011 /* BuddyCheckBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuddyCheckBanner.swift; path = Meshtastic/MeshKit/Features/BuddyCheck/BuddyCheckBanner.swift; sourceTree = SOURCE_ROOT; };
-		78334FAA8D783CC61C806B3B /* MeshKitSpacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeshKitSpacing.swift; path = Meshtastic/MeshKit/Design/MeshKitSpacing.swift; sourceTree = SOURCE_ROOT; };
+		7E764CAB83F5456385052A43 /* DemoConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DemoConfig.swift; path = Meshtastic/MeshKit/Shared/DemoConfig.swift; sourceTree = SOURCE_ROOT; };
 		7F1B62B5CB54395476C3A924 /* GenericCoTHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GenericCoTHandler.swift; sourceTree = "<group>"; };
 		82232A3CF2DD284ED5B9B8ED /* AccessoryManager+TAK.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = "AccessoryManager+TAK.swift"; sourceTree = "<group>"; };
-		84B24022B22A096210F800BB /* BuddyCheckConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuddyCheckConfiguration.swift; path = Meshtastic/MeshKit/Features/BuddyCheck/BuddyCheckConfiguration.swift; sourceTree = SOURCE_ROOT; };
 		84CCF00CDD3D48C9B9DCA554 /* WatchSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionManager.swift; sourceTree = "<group>"; };
 		87D006C85B250291D5925F30 /* TAKMeshtasticBridge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TAKMeshtasticBridge.swift; sourceTree = "<group>"; };
 		8A96594950B87789C0BB96DB /* NodeListHelp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeListHelp.swift; sourceTree = "<group>"; };
+		8CE24C4391CC8F0804E069AD /* BuddyCheckConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuddyCheckConfiguration.swift; path = Meshtastic/MeshKit/Features/BuddyCheck/BuddyCheckConfiguration.swift; sourceTree = SOURCE_ROOT; };
 		8D3F8A3D2D44B137009EAAA4 /* MeshtasticDataModelV 49.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MeshtasticDataModelV 49.xcdatamodel"; sourceTree = "<group>"; };
 		8D3F8A3E2D44BB02009EAAA4 /* PowerMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerMetrics.swift; sourceTree = "<group>"; };
 		8D3F8A402D44C2A6009EAAA4 /* PowerMetricsLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PowerMetricsLog.swift; sourceTree = "<group>"; };
+		907D478EBC618EDDD731B9F4 /* BuddyCheckOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuddyCheckOverlay.swift; path = Meshtastic/MeshKit/Features/BuddyCheck/BuddyCheckOverlay.swift; sourceTree = SOURCE_ROOT; };
 		9155703C39B55FC9DDF3E4C1 /* TAKDataPackageGenerator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = TAKDataPackageGenerator.swift; sourceTree = "<group>"; };
 		918722D2C1474B2D99ED01DC /* UserEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserEntity.swift; sourceTree = "<group>"; };
-		A78D4FF08ACF04D70C954365 /* BuddyCheckMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuddyCheckMonitor.swift; path = Meshtastic/MeshKit/Features/BuddyCheck/BuddyCheckMonitor.swift; sourceTree = SOURCE_ROOT; };
+		962540648361F7A41C21BDCD /* MeshKitFeatureFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeshKitFeatureFlags.swift; path = Meshtastic/MeshKit/Shared/MeshKitFeatureFlags.swift; sourceTree = SOURCE_ROOT; };
+		98534C52B32721FA9F15F068 /* FriendMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FriendMapView.swift; path = Meshtastic/MeshKit/Features/FamilyMode/FriendMapView.swift; sourceTree = SOURCE_ROOT; };
+		A0A345A59B9EF6D1FB3E3497 /* demo_config.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = demo_config.json; path = Meshtastic/MeshKit/Shared/demo_config.json; sourceTree = SOURCE_ROOT; };
+		A9254E86B2E9BD0F0277DCD9 /* BuddyCheckBanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuddyCheckBanner.swift; path = Meshtastic/MeshKit/Features/BuddyCheck/BuddyCheckBanner.swift; sourceTree = SOURCE_ROOT; };
 		A97241903A924144A3EEB679 /* PositionEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PositionEntity.swift; sourceTree = "<group>"; };
 		AA000002303050030000B001 /* Color+Brand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Brand.swift"; sourceTree = "<group>"; };
 		AA00010022E2730EC0060000 /* ConnectViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectViewTests.swift; sourceTree = "<group>"; };
 		AA0001022F07A4B000600001 /* MeshtasticDataModelV 57.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MeshtasticDataModelV 57.xcdatamodel"; sourceTree = "<group>"; };
 		AA0001042F07A4B000600001 /* TAKModuleConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAKModuleConfig.swift; sourceTree = "<group>"; };
-		'AA000201CPLAY000000000001' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlaySceneDelegate.swift; sourceTree = "<group>"; };
-		'AA000201CPLAY000000000003' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayIntentDonation.swift; sourceTree = "<group>"; };
-		'AA000301CPTST000000000001' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarPlayTests.swift; sourceTree = "<group>"; };
-		'AA000401SIRI000000000010' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
-		'AA000401SIRI000000000011' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = de; path = de.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
-		'AA000401SIRI000000000012' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = es; path = es.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
-		'AA000401SIRI000000000013' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = fr; path = fr.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
-		'AA000401SIRI000000000014' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = it; path = it.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
-		'AA000401SIRI000000000015' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ja; path = ja.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
-		'AA000401SIRI000000000016' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = da; path = da.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
-		'AA000401SIRI000000000017' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = pl; path = pl.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
-		'AA000401SIRI000000000018' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ru; path = ru.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
-		'AA000401SIRI000000000019' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = he; path = he.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
-		'AA000401SIRI000000000020' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = sr; path = sr.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
-		'AA000401SIRI000000000021' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = se; path = se.lproj/AppIntentVocabulary.plist; sourceTree = "<group>"; };
-		'AA000401SIRI000000000022' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hans"; path = "zh-Hans.lproj/AppIntentVocabulary.plist"; sourceTree = "<group>"; };
-		'AA000401SIRI000000000023' = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "zh-Hant-TW"; path = "zh-Hant-TW.lproj/AppIntentVocabulary.plist"; sourceTree = "<group>"; };
-		'AA0005WTCH00000000FR0001' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshtasticWatchApp.swift; sourceTree = "<group>"; };
-		'AA0005WTCH00000000FR0002' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		'AA0005WTCH00000000FR0003' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshNode.swift; sourceTree = "<group>"; };
-		'AA0005WTCH00000000FR0004' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneConnectivityManager.swift; sourceTree = "<group>"; };
-		'AA0005WTCH00000000FR0005' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchLocationManager.swift; sourceTree = "<group>"; };
-		'AA0005WTCH00000000FR0006' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoxhuntCompassView.swift; sourceTree = "<group>"; };
-		'AA0005WTCH00000000FR0007' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyNodesListView.swift; sourceTree = "<group>"; };
-		'AA0005WTCH00000000FR0008' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceConnectionView.swift; sourceTree = "<group>"; };
-		'AA0005WTCH00000000FR0009' = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		'AA0005WTCH00000000FR0010' = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Meshtastic Watch App.entitlements"; sourceTree = "<group>"; };
-		'AA0005WTCH00000000FR0012' = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Meshtastic Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		'AA0005WTCH00000000FR0013' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCircleText.swift; sourceTree = "<group>"; };
-		'AA003DOC0000001000000001' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocModels.swift; sourceTree = "<group>"; };
-		'AA003DOC0000001000000002' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocBrowserView.swift; sourceTree = "<group>"; };
-		'AA003DOC0000001000000003' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocPageView.swift; sourceTree = "<group>"; };
-		'AA003DOC0000001000000004' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIDocAssistantView.swift; sourceTree = "<group>"; };
-		'AA003DOC0000001000000005' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocBundleTests.swift; sourceTree = "<group>"; };
-		'AA003DOC0000001000000006' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocTranslationService.swift; sourceTree = "<group>"; };
-		'AA003DOC0000001000000007' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TranslationCache.swift; path = Meshtastic/Services/TranslationCache.swift; sourceTree = "<group>"; };
-		'AA003DOC0000001000000008' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocTranslationTests.swift; sourceTree = "<group>"; };
-		'AA003DOC0000005000000001' = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = docs; sourceTree = "<group>"; };
-		'AA003FM00000001000000001' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoundationModelAvailability.swift; path = Meshtastic/Services/FoundationModelAvailability.swift; sourceTree = "<group>"; };
-		'AA004FMT0000001000000001' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownFormatting.swift; sourceTree = "<group>"; };
-		'AA004FMT0000001000000002' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormattingToolbarButtons.swift; sourceTree = "<group>"; };
-		'AA004FMT0000001000000003' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagePreview.swift; sourceTree = "<group>"; };
-		'AA004FMT0000001000000004' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownFormattingTests.swift; sourceTree = "<group>"; };
-		'AA009CTF0000001000000001' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CommunityTranslationFetcher.swift; path = Meshtastic/Services/CommunityTranslationFetcher.swift; sourceTree = "<group>"; };
-		'AA009DTU0000001000000001' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DocsTranslationUploader.swift; path = Meshtastic/Services/DocsTranslationUploader.swift; sourceTree = "<group>"; };
-		'AA009MCT0000001000000001' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkdownConverterTests.swift; sourceTree = "<group>"; };
-		'AA009MDC0000001000000001' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MarkdownConverter.swift; path = Meshtastic/Services/MarkdownConverter.swift; sourceTree = "<group>"; };
-		'AA00SDRF0001' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHardwareImageEntity.swift; sourceTree = "<group>"; };
-		'AA00SDRF0002' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceHardwareTagEntity.swift; sourceTree = "<group>"; };
-		'AA00SDRF0003' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareReleaseEntity.swift; sourceTree = "<group>"; };
 		AA10D0002D00000000000001 /* DiscoverySummaryPDF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverySummaryPDF.swift; sourceTree = "<group>"; };
 		AA11223344556677AABB0002 /* DiscoveryTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryTips.swift; sourceTree = "<group>"; };
 		AAD14FA280F0A130730DEB93 /* DiscoveryScanEngineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryScanEngineTests.swift; sourceTree = "<group>"; };
@@ -762,10 +824,8 @@
 		BCE2D3C62C7B0D0A008E6199 /* ShortcutsProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutsProvider.swift; sourceTree = "<group>"; };
 		BCE2D3C82C7C377F008E6199 /* FactoryResetNodeIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactoryResetNodeIntent.swift; sourceTree = "<group>"; };
 		BEC437CA60D4A60C870E63CA /* DiscoveredNodeEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveredNodeEntity.swift; sourceTree = "<group>"; };
-		C4E3477087C6FC705419E82D /* BuddyCheckOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuddyCheckOverlay.swift; path = Meshtastic/MeshKit/Features/BuddyCheck/BuddyCheckOverlay.swift; sourceTree = SOURCE_ROOT; };
 		CA63632A10C2DD076FA222BE /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
 		CDA6A18109101FA06A9FBBFB /* SetMessageAttributeIntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetMessageAttributeIntentHandler.swift; sourceTree = "<group>"; };
-		CE80497DAA9712B4A01CB337 /* MeshKitColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeshKitColors.swift; path = Meshtastic/MeshKit/Design/MeshKitColors.swift; sourceTree = SOURCE_ROOT; };
 		D8D66A4063FE4E868CD30D3C /* TraceRouteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TraceRouteModels.swift; sourceTree = "<group>"; };
 		D93068D22B8129510066FBC8 /* MessageContextMenuItems.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageContextMenuItems.swift; sourceTree = "<group>"; };
 		D93068D42B812B700066FBC8 /* MessageDestination.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageDestination.swift; sourceTree = "<group>"; };
@@ -783,53 +843,6 @@
 		D9C983A12B79D1A600BDBE6A /* RequestPositionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestPositionButton.swift; sourceTree = "<group>"; };
 		DB55D64F064C45ADBD31ABF8 /* RouteModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteModels.swift; sourceTree = "<group>"; };
 		DC5970BC1CAF4B66999C7248 /* MyInfoEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoEntity.swift; sourceTree = "<group>"; };
-		'DD000001NODNAVTST00000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeNavigationTests.swift; sourceTree = "<group>"; };
-		'DD000002STREXTTST00000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionTests.swift; sourceTree = "<group>"; };
-		'DD000003NUMEXTTST00000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumericExtensionTests.swift; sourceTree = "<group>"; };
-		'DD000004URLTST0000000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensionTests.swift; sourceTree = "<group>"; };
-		'DD000005ENUMTST000000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumTests.swift; sourceTree = "<group>"; };
-		'DD000006GEOTST0000000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoExtensionTests.swift; sourceTree = "<group>"; };
-		'DD000007LORATST000000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoraDeviceEnumTests.swift; sourceTree = "<group>"; };
-		'DD000008APPSTST000000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsEnumTests.swift; sourceTree = "<group>"; };
-		'DD000009INTVTST000000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntervalEnumTests.swift; sourceTree = "<group>"; };
-		'DD00000AEXTNTST000000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
-		'DD00000BTAKCTST000000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAKCodecTests.swift; sourceTree = "<group>"; };
-		'DD00000CCOTTST0000000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoTMessageTests.swift; sourceTree = "<group>"; };
-		'DD00000DGEOJSNTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSONTests.swift; sourceTree = "<group>"; };
-		'DD00000ETAKBRGTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAKBridgeTests.swift; sourceTree = "<group>"; };
-		'DD00000FCOTXMLTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoTXMLParserTests.swift; sourceTree = "<group>"; };
-		'DD000010GENCOTTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericCoTHandlerTests.swift; sourceTree = "<group>"; };
-		'DD000011UTILENTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilityAndEnumTests.swift; sourceTree = "<group>"; };
-		'DD000012COTEXTTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoTExtensionTests.swift; sourceTree = "<group>"; };
-		'DD000013FWAPITST00000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareAndAPITests.swift; sourceTree = "<group>"; };
-		'DD000014RTRDLTST00000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterDeepLinkTests.swift; sourceTree = "<group>"; };
-		'DD000016NAVSTATST00000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationStateTests.swift; sourceTree = "<group>"; };
-		'DD000017MTRVZTST00000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsVisualizationTests.swift; sourceTree = "<group>"; };
-		'DD000018RTMISCTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoutingAndMiscTests.swift; sourceTree = "<group>"; };
-		'DD000019NYMEACTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NymeaConstantsTests.swift; sourceTree = "<group>"; };
-		'DD00001AASYNCCTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncConcurrencyTests.swift; sourceTree = "<group>"; };
-		'DD00001BINTCVRTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentConverterTests.swift; sourceTree = "<group>"; };
-		'DD00001CMAPDATTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDataModelTests.swift; sourceTree = "<group>"; };
-		'DD00001DCDENTTST00000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityTests.swift; sourceTree = "<group>"; };
-		'DD00001EURLDETTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensionDetailedTests.swift; sourceTree = "<group>"; };
-		'DD00001FFWVMERRTST000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareViewModelErrorTests.swift; sourceTree = "<group>"; };
-		'DD000020TAKBRDTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TAKBridgeDetailedTests.swift; sourceTree = "<group>"; };
-		'DD000021ENMCMPTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumComprehensiveTests.swift; sourceTree = "<group>"; };
-		'DD000022GEOJSNCFG0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoJSONOverlayConfigTests.swift; sourceTree = "<group>"; };
-		'DD000023EXTDETTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDetailedTests.swift; sourceTree = "<group>"; };
-		'DD000024ENMBATTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumBatchTests.swift; sourceTree = "<group>"; };
-		'DD000025COTMSGDTL0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoTMessageDetailedTests.swift; sourceTree = "<group>"; };
-		'DD000026STREXTDTL0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensionDetailedTests.swift; sourceTree = "<group>"; };
-		'DD000027REMEUTLTST000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainingEnumAndUtilTests.swift; sourceTree = "<group>"; };
-		'DD000029APSTFWTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppSettingsAndFirmwareTests.swift; sourceTree = "<group>"; };
-		'DD00002AINTREMTST00000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentAndRemainingTests.swift; sourceTree = "<group>"; };
-		'DD00002BMSHPKTELTST000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshPacketsAndTelemetryTests.swift; sourceTree = "<group>"; };
-		'DD00002DSNPVWTST000000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIViewSnapshotTests.swift; sourceTree = "<group>"; };
-		'DD00002ESDMIGTST000000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDataMigrationTests.swift; sourceTree = "<group>"; };
-		'DD00002FSHRDTSTCNT000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestContainer.swift; sourceTree = "<group>"; };
-		'DD000030EVTFWNTST0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventFirmwareNotificationTests.swift; sourceTree = "<group>"; };
-		'DD000031FWEDTENUM0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirmwareEditionEnum.swift; sourceTree = "<group>"; };
-		'DD00003ASUPPORTLVL0000000' = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SupportLevel.swift; sourceTree = "<group>"; };
 		DD007BAD2AA4E91200F5FA12 /* MyInfoEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyInfoEntityExtension.swift; sourceTree = "<group>"; };
 		DD007BAF2AA5981000F5FA12 /* NodeInfoEntityExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NodeInfoEntityExtension.swift; sourceTree = "<group>"; };
 		DD04804A2E9295A5005F946C /* MeshtasticDataModelV 55.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "MeshtasticDataModelV 55.xcdatamodel"; sourceTree = "<group>"; };
@@ -1071,7 +1084,9 @@
 		DDF924C926FBB953009FE055 /* ConnectedDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectedDevice.swift; sourceTree = "<group>"; };
 		DDFEB3BA29900C1200EE7472 /* CurrentConditionsCompact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentConditionsCompact.swift; sourceTree = "<group>"; };
 		DDFFA7462B3A7F3C004730DB /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
+		E3E24382A1AA50787361EFCA /* BuddyCheckMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BuddyCheckMonitor.swift; path = Meshtastic/MeshKit/Features/BuddyCheck/BuddyCheckMonitor.swift; sourceTree = SOURCE_ROOT; };
 		E98797BFD67F449B9ACCEDA7 /* WaypointEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaypointEntity.swift; sourceTree = "<group>"; };
+		EECA4B709C8A4D256ADBEDB0 /* MeshKitTypography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MeshKitTypography.swift; path = Meshtastic/MeshKit/Design/MeshKitTypography.swift; sourceTree = SOURCE_ROOT; };
 		F1B6FB13C4D4E03503BB1DF8 /* DiscoverySummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverySummaryView.swift; sourceTree = "<group>"; };
 		F3204EF969484E549C139730 /* MessageEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageEntity.swift; sourceTree = "<group>"; };
 		F5CA8BAC814CF82E127EEABF /* DiscoveryScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoveryScanView.swift; sourceTree = "<group>"; };
@@ -1152,18 +1167,18 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		"'AA0005WTCH00000000FP0001'" = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25F5D5C42C4375A8008036E3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				DD00003C000SNAP00000001,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		'AA0005WTCH00000000FP0001' = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1198,6 +1213,69 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		"'AA000201CPLAY000000000005'" = {
+			isa = PBXGroup;
+			children = (
+				AA000201CPLAY000000000001,
+				AA000201CPLAY000000000003,
+			);
+			path = CarPlay;
+			sourceTree = "<group>";
+		};
+		"'AA0005WTCH00000000GR0001'" = {
+			isa = PBXGroup;
+			children = (
+				AA0005WTCH00000000FR0001,
+				AA0005WTCH00000000FR0002,
+				AA0005WTCH00000000FR0010,
+				AA0005WTCH00000000FR0009,
+				AA0005WTCH00000000GR0002,
+				AA0005WTCH00000000GR0003,
+				AA0005WTCH00000000GR0004,
+			);
+			path = "Meshtastic Watch App";
+			sourceTree = "<group>";
+		};
+		"'AA0005WTCH00000000GR0002'" = {
+			isa = PBXGroup;
+			children = (
+				AA0005WTCH00000000FR0004,
+				AA0005WTCH00000000FR0005,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		"'AA0005WTCH00000000GR0003'" = {
+			isa = PBXGroup;
+			children = (
+				AA0005WTCH00000000FR0003,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		"'AA0005WTCH00000000GR0004'" = {
+			isa = PBXGroup;
+			children = (
+				AA0005WTCH00000000FR0006,
+				AA0005WTCH00000000FR0007,
+				AA0005WTCH00000000FR0008,
+				AA0005WTCH00000000FR0013,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		"'AA003DOC0000003000000001'" = {
+			isa = PBXGroup;
+			children = (
+				AA003DOC0000001000000001,
+				AA003DOC0000001000000002,
+				AA003DOC0000001000000003,
+				AA003DOC0000001000000004,
+				AA003DOC0000001000000006,
+			);
+			path = HelpAndDocumentation;
+			sourceTree = "<group>";
+		};
 		23148E2E2EE1CCB100F0DB2C /* API */ = {
 			isa = PBXGroup;
 			children = (
@@ -1566,69 +1644,6 @@
 			path = Discovery;
 			sourceTree = "<group>";
 		};
-		'AA000201CPLAY000000000005' = {
-			isa = PBXGroup;
-			children = (
-				AA000201CPLAY000000000001,
-				AA000201CPLAY000000000003,
-			);
-			path = CarPlay;
-			sourceTree = "<group>";
-		};
-		'AA0005WTCH00000000GR0001' = {
-			isa = PBXGroup;
-			children = (
-				AA0005WTCH00000000FR0001,
-				AA0005WTCH00000000FR0002,
-				AA0005WTCH00000000FR0010,
-				AA0005WTCH00000000FR0009,
-				AA0005WTCH00000000GR0002,
-				AA0005WTCH00000000GR0003,
-				AA0005WTCH00000000GR0004,
-			);
-			path = "Meshtastic Watch App";
-			sourceTree = "<group>";
-		};
-		'AA0005WTCH00000000GR0002' = {
-			isa = PBXGroup;
-			children = (
-				AA0005WTCH00000000FR0004,
-				AA0005WTCH00000000FR0005,
-			);
-			path = Managers;
-			sourceTree = "<group>";
-		};
-		'AA0005WTCH00000000GR0003' = {
-			isa = PBXGroup;
-			children = (
-				AA0005WTCH00000000FR0003,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		'AA0005WTCH00000000GR0004' = {
-			isa = PBXGroup;
-			children = (
-				AA0005WTCH00000000FR0006,
-				AA0005WTCH00000000FR0007,
-				AA0005WTCH00000000FR0008,
-				AA0005WTCH00000000FR0013,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		'AA003DOC0000003000000001' = {
-			isa = PBXGroup;
-			children = (
-				AA003DOC0000001000000001,
-				AA003DOC0000001000000002,
-				AA003DOC0000001000000003,
-				AA003DOC0000001000000004,
-				AA003DOC0000001000000006,
-			);
-			path = HelpAndDocumentation;
-			sourceTree = "<group>";
-		};
 		BCB6137F2C6728E700485544 /* AppIntents */ = {
 			isa = PBXGroup;
 			children = (
@@ -1963,15 +1978,23 @@
 				AA0005WTCH00000000GR0001,
 				DDC2E15526CE248E0042C5E4 /* Products */,
 				DD8EDE9226F97A2B00A5A10B /* Frameworks */,
-				2E974F04AFF58BEFB8922E3F /* MeshKitFeatureFlags.swift */,
-				CE80497DAA9712B4A01CB337 /* MeshKitColors.swift */,
-				23A54F33BA0935D9066CE6DA /* MeshKitTypography.swift */,
-				78334FAA8D783CC61C806B3B /* MeshKitSpacing.swift */,
-				84B24022B22A096210F800BB /* BuddyCheckConfiguration.swift */,
-				A78D4FF08ACF04D70C954365 /* BuddyCheckMonitor.swift */,
-				75DB42619F3AC5F8A6B8E011 /* BuddyCheckBanner.swift */,
-				27CE4C23BA300A012ED15920 /* BuddyCheckSettingsView.swift */,
-				C4E3477087C6FC705419E82D /* BuddyCheckOverlay.swift */,
+				962540648361F7A41C21BDCD /* MeshKitFeatureFlags.swift */,
+				21BA42C488D9E546934AE35F /* MeshKitColors.swift */,
+				EECA4B709C8A4D256ADBEDB0 /* MeshKitTypography.swift */,
+				57374AA5B94909CCDEE1B1B4 /* MeshKitSpacing.swift */,
+				8CE24C4391CC8F0804E069AD /* BuddyCheckConfiguration.swift */,
+				E3E24382A1AA50787361EFCA /* BuddyCheckMonitor.swift */,
+				A9254E86B2E9BD0F0277DCD9 /* BuddyCheckBanner.swift */,
+				08954CB9A744689896AF5931 /* BuddyCheckSettingsView.swift */,
+				907D478EBC618EDDD731B9F4 /* BuddyCheckOverlay.swift */,
+				3B914A13BD06EB61FE8804C9 /* DemoMode.swift */,
+				7E764CAB83F5456385052A43 /* DemoConfig.swift */,
+				6F8B440E92EA0FBE9DA867EE /* DemoModeSettingsView.swift */,
+				22D4494497405D43EF67212A /* MeshKitShadow.swift */,
+				0EC6494E867EC630FC491F1E /* PalCharacterView.swift */,
+				98534C52B32721FA9F15F068 /* FriendMapView.swift */,
+				61994975BE9E38AACC41D614 /* LocationPinView.swift */,
+				A0A345A59B9EF6D1FB3E3497 /* demo_config.json */,
 			);
 			sourceTree = "<group>";
 			usesTabs = 1;
@@ -2279,6 +2302,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		"'AA0005WTCH00000000NT0001'" = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AA0005WTCH00000000CL0001;
+			buildPhases = (
+				AA0005WTCH00000000SP0001,
+				AA0005WTCH00000000FP0001,
+				AA0005WTCH00000000RP0001,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Meshtastic Watch App";
+			productName = "Meshtastic Watch App";
+			productReference = AA0005WTCH00000000FR0012;
+			productType = "com.apple.product-type.application";
+		};
 		25F5D5C62C4375A8008036E3 /* MeshtasticTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 25F5D5CF2C4375A8008036E3 /* Build configuration list for PBXNativeTarget "MeshtasticTests" */;
@@ -2299,23 +2339,6 @@
 			productName = MeshtasticTests;
 			productReference = 25F5D5C72C4375A8008036E3 /* MeshtasticTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		'AA0005WTCH00000000NT0001' = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = AA0005WTCH00000000CL0001;
-			buildPhases = (
-				AA0005WTCH00000000SP0001,
-				AA0005WTCH00000000FP0001,
-				AA0005WTCH00000000RP0001,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Meshtastic Watch App";
-			productName = "Meshtastic Watch App";
-			productReference = AA0005WTCH00000000FR0012;
-			productType = "com.apple.product-type.application";
 		};
 		DDC2E15326CE248E0042C5E4 /* Meshtastic */ = {
 			isa = PBXNativeTarget;
@@ -2450,18 +2473,18 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		25F5D5C52C4375A8008036E3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		'AA0005WTCH00000000RP0001' = {
+		"'AA0005WTCH00000000RP0001'" = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AA0005WTCH00000000BF0009,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F5D5C52C4375A8008036E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2539,6 +2562,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		"'AA0005WTCH00000000SP0001'" = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0005WTCH00000000BF0001,
+				AA0005WTCH00000000BF0002,
+				AA0005WTCH00000000BF0003,
+				AA0005WTCH00000000BF0004,
+				AA0005WTCH00000000BF0005,
+				AA0005WTCH00000000BF0006,
+				AA0005WTCH00000000BF0007,
+				AA0005WTCH00000000BF0008,
+				AA0005WTCH00000000BF0013,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25F5D5C32C4375A8008036E3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2598,22 +2637,6 @@
 				DD00002ESDMIGTST000000001,
 				DD00002FSHRDTSTCNT000001,
 				DD000030EVTFWNTST0000001,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		'AA0005WTCH00000000SP0001' = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				AA0005WTCH00000000BF0001,
-				AA0005WTCH00000000BF0002,
-				AA0005WTCH00000000BF0003,
-				AA0005WTCH00000000BF0004,
-				AA0005WTCH00000000BF0005,
-				AA0005WTCH00000000BF0006,
-				AA0005WTCH00000000BF0007,
-				AA0005WTCH00000000BF0008,
-				AA0005WTCH00000000BF0013,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2983,15 +3006,22 @@
 				DD6F657D2C6EC2910053C113 /* HelpItem.swift in Sources */,
 				DD000031FWEDTENUM0000001,
 				DDC1B81B2AB5377B00C71E39 /* PersistentTipStyle.swift in Sources */,
-				F1F547EC94F1DBAF02E3D9F5 /* MeshKitFeatureFlags.swift in Sources */,
-				8331473180FAFB95DD824397 /* MeshKitColors.swift in Sources */,
-				FB334237B18D4CBBBCEDD8DE /* MeshKitTypography.swift in Sources */,
-				1B6147239C34FA04FD73D072 /* MeshKitSpacing.swift in Sources */,
-				1D7849F19312CE446CA5591B /* BuddyCheckConfiguration.swift in Sources */,
-				BD734033BACE6343F8C0F461 /* BuddyCheckMonitor.swift in Sources */,
-				7CE647C7962139F3FAAA3561 /* BuddyCheckBanner.swift in Sources */,
-				FDAA40E18CC2E7663A973D23 /* BuddyCheckSettingsView.swift in Sources */,
-				551C4484A43B1AC419FD787A /* BuddyCheckOverlay.swift in Sources */,
+				D8DB4D05805290CEB4835B75 /* MeshKitFeatureFlags.swift in Sources */,
+				715546348FF0F46313CA4C4A /* MeshKitColors.swift in Sources */,
+				6E374B66BA0FD4EADE56BC76 /* MeshKitTypography.swift in Sources */,
+				918945FE8FC18685275D2015 /* MeshKitSpacing.swift in Sources */,
+				14934794BBF4E7FE1FCEDF8D /* BuddyCheckConfiguration.swift in Sources */,
+				E8AD4E31B93D31B7974F9A85 /* BuddyCheckMonitor.swift in Sources */,
+				BE5941AAA91DD268ACF37C54 /* BuddyCheckBanner.swift in Sources */,
+				03EC4CE5B6178BF0851EC994 /* BuddyCheckSettingsView.swift in Sources */,
+				FA574B6A9C65FF9006BB19AB /* BuddyCheckOverlay.swift in Sources */,
+				B52A44D19B68B4DF748AFFAE /* DemoMode.swift in Sources */,
+				F0064CAA936EA0CA946BD962 /* DemoConfig.swift in Sources */,
+				98A74D578000C8B916D7BBE3 /* DemoModeSettingsView.swift in Sources */,
+				1E5A44C3A639CBEBA97557A1 /* MeshKitShadow.swift in Sources */,
+				35584D839D6557F82AA54AA8 /* PalCharacterView.swift in Sources */,
+				4E2C4065B641DC677B9BF419 /* FriendMapView.swift in Sources */,
+				BECB4A958BC30A069DA52B96 /* LocationPinView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3010,16 +3040,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		25F5D5CC2C4375A8008036E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = DDC2E15326CE248E0042C5E4 /* Meshtastic */;
-			targetProxy = 25F5D5CB2C4375A8008036E3 /* PBXContainerItemProxy */;
-		};
-		'AA0005WTCH00000000TD0001' = {
+		"'AA0005WTCH00000000TD0001'" = {
 			isa = PBXTargetDependency;
 			platformFilter = ios;
 			target = AA0005WTCH00000000NT0001;
 			targetProxy = AA0005WTCH00000000CX0001;
+		};
+		25F5D5CC2C4375A8008036E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDC2E15326CE248E0042C5E4 /* Meshtastic */;
+			targetProxy = 25F5D5CB2C4375A8008036E3 /* PBXContainerItemProxy */;
 		};
 		DDDE5A0229AF163E00490C6C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3030,7 +3060,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		'AA000401SIRI000000000001' = {
+		"'AA000401SIRI000000000001'" = {
 			isa = PBXVariantGroup;
 			children = (
 				AA000401SIRI000000000010,
@@ -3054,6 +3084,74 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		"'AA0005WTCH00000000BC0001'" = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Meshtastic Watch App/Meshtastic Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GCH7VS5Y9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Meshtastic Watch App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Meshtastic;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Meshtastic needs your location to calculate distance and bearing to mesh nodes during foxhunt.";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = gvh.MeshtasticClient;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.7.13;
+				PRODUCT_BUNDLE_IDENTIFIER = gvh.MeshtasticClient.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		"'AA0005WTCH00000000BC0002'" = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = "Meshtastic Watch App/Meshtastic Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = GCH7VS5Y9R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Meshtastic Watch App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = Meshtastic;
+				INFOPLIST_KEY_CFBundleIconName = AppIcon;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Meshtastic needs your location to calculate distance and bearing to mesh nodes during foxhunt.";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = gvh.MeshtasticClient;
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.7.13;
+				PRODUCT_BUNDLE_IDENTIFIER = gvh.MeshtasticClient.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
 		25F5D5CD2C4375A8008036E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3101,74 +3199,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Meshtastic.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Meshtastic";
-			};
-			name = Release;
-		};
-		'AA0005WTCH00000000BC0001' = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = "Meshtastic Watch App/Meshtastic Watch App.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GCH7VS5Y9R;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Meshtastic Watch App/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Meshtastic;
-				INFOPLIST_KEY_CFBundleIconName = AppIcon;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Meshtastic needs your location to calculate distance and bearing to mesh nodes during foxhunt.";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = gvh.MeshtasticClient;
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 2.7.13;
-				PRODUCT_BUNDLE_IDENTIFIER = gvh.MeshtasticClient.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchos watchsimulator";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
-			};
-			name = Debug;
-		};
-		'AA0005WTCH00000000BC0002' = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = "Meshtastic Watch App/Meshtastic Watch App.entitlements";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GCH7VS5Y9R;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Meshtastic Watch App/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = Meshtastic;
-				INFOPLIST_KEY_CFBundleIconName = AppIcon;
-				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Meshtastic needs your location to calculate distance and bearing to mesh nodes during foxhunt.";
-				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = gvh.MeshtasticClient;
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = NO;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 2.7.13;
-				PRODUCT_BUNDLE_IDENTIFIER = gvh.MeshtasticClient.watchkitapp;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SUPPORTED_PLATFORMS = "watchos watchsimulator";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
 		};
@@ -3476,20 +3506,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		"'AA0005WTCH00000000CL0001'" = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AA0005WTCH00000000BC0001,
+				AA0005WTCH00000000BC0002,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		25F5D5CF2C4375A8008036E3 /* Build configuration list for PBXNativeTarget "MeshtasticTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				25F5D5CD2C4375A8008036E3 /* Debug */,
 				25F5D5CE2C4375A8008036E3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		'AA0005WTCH00000000CL0001' = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				AA0005WTCH00000000BC0001,
-				AA0005WTCH00000000BC0002,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3531,6 +3561,22 @@
 /* End XCLocalSwiftPackageReference section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		"'AA009SMD0000000000000001'" = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/swiftlang/swift-markdown";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+		"'DD00003A000SNAP00000000'" = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.17.0;
+			};
+		};
 		102B5EA92E172F41003D191E /* XCRemoteSwiftPackageReference "dd-sdk-ios" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/DataDog/dd-sdk-ios.git";
@@ -3572,22 +3618,6 @@
 				minimumVersion = 1.26.0;
 			};
 		};
-		'AA009SMD0000000000000001' = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/swiftlang/swift-markdown";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.5.0;
-			};
-		};
-		'DD00003A000SNAP00000000' = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-snapshot-testing";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.17.0;
-			};
-		};
 		DD0D3D202A55CEB10066DB71 /* XCRemoteSwiftPackageReference "CocoaMQTT" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/emqx/CocoaMQTT";
@@ -3599,6 +3629,16 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		"'AA009SMD0000000000000002'" = {
+			isa = XCSwiftPackageProductDependency;
+			package = AA009SMD0000000000000001;
+			productName = Markdown;
+		};
+		"'DD00003B000SNAP00000000'" = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD00003A000SNAP00000000;
+			productName = SnapshotTesting;
+		};
 		102B5EAA2E172F41003D191E /* DatadogCore */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = 102B5EA92E172F41003D191E /* XCRemoteSwiftPackageReference "dd-sdk-ios" */;
@@ -3646,16 +3686,6 @@
 		25A978BB2C13F90D0003AAE7 /* MeshtasticProtobufs */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = MeshtasticProtobufs;
-		};
-		'AA009SMD0000000000000002' = {
-			isa = XCSwiftPackageProductDependency;
-			package = AA009SMD0000000000000001;
-			productName = Markdown;
-		};
-		'DD00003B000SNAP00000000' = {
-			isa = XCSwiftPackageProductDependency;
-			package = DD00003A000SNAP00000000;
-			productName = SnapshotTesting;
 		};
 		DD0D3D212A55CEB10066DB71 /* CocoaMQTT */ = {
 			isa = XCSwiftPackageProductDependency;
