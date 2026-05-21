@@ -57,7 +57,7 @@ struct DemoModeSettingsView: View {
 					}
 				}
 
-				Section("Actions") {
+				Section {
 					Button("Reload Demo Data") {
 						demoMode.reload(context: context)
 					}
@@ -70,6 +70,8 @@ struct DemoModeSettingsView: View {
 					}
 					.font(MeshKitTypography.body)
 					.foregroundStyle(MeshKitColors.primary)
+				} header: {
+					Text("Actions")
 				} footer: {
 					Text("Edit demo_config.json in the Files app → Meshtastic folder, then tap Reload.")
 						.font(MeshKitTypography.caption)

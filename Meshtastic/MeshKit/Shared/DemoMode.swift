@@ -151,7 +151,7 @@ final class DemoMode {
 
 			let message = MessageEntity()
 			message.messageId = Int64.random(in: 100_000...999_999)
-			message.messageTimestamp = Date(timeIntervalSinceNow: -TimeInterval(msg.minutesAgo * 60))
+			message.messageTimestamp = Int32(Date(timeIntervalSinceNow: -TimeInterval(msg.minutesAgo * 60)).timeIntervalSince1970)
 			message.receivedACK = msg.acked
 			message.read = msg.read
 			message.isEmoji = false

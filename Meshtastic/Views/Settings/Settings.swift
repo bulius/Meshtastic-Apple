@@ -20,6 +20,7 @@ struct Settings: View {
 
 	@State private var selectedNode: Int = 0
 	@State private var preferredNodeNum: Int = 0
+	@AppStorage("meshkit.feature.familyMode") private var familyMode: Bool = false
 
 	@EnvironmentObject
 	var router: Router
@@ -390,6 +391,51 @@ struct Settings: View {
 		) {
 			let node = nodes.first(where: { $0.num == preferredNodeNum })
 			List {
+				Section("MeshKit (debug)") {
+					Toggle(isOn: $familyMode) {
+						Label {
+							VStack(alignment: .leading, spacing: 2) {
+								Text("Family Mode")
+								Text("Use the picture-book interface tuned for camping with kids")
+									.font(.caption)
+									.foregroundColor(.secondary)
+							}
+						} icon: {
+							Image(systemName: "figure.2.and.child.holdinghands")
+						}
+					}
+
+					NavigationLink {
+						DemoModeSettingsView()
+					} label: {
+						Label {
+							VStack(alignment: .leading, spacing: 2) {
+								Text("Demo Mode")
+								Text("Populate the app with fake pals so you can preview the UI")
+									.font(.caption)
+									.foregroundColor(.secondary)
+							}
+						} icon: {
+							Image(systemName: "theatermasks")
+						}
+					}
+
+					NavigationLink {
+						BuddyCheckSettingsView()
+					} label: {
+						Label {
+							VStack(alignment: .leading, spacing: 2) {
+								Text("Buddy Check")
+								Text("Get an alert when a pal goes quiet on the mesh")
+									.font(.caption)
+									.foregroundColor(.secondary)
+							}
+						} icon: {
+							Image(systemName: "exclamationmark.shield")
+						}
+					}
+				}
+
 				NavigationLink(value: SettingsNavigationState.about) {
 					Label {
 						Text("About Meshtastic")

@@ -26,6 +26,10 @@ final class LocationPin {
 	var color: Color { Color(hex: UInt32(colorHex.dropFirst(), radix: 16) ?? 0xFF7A59) }
 }
 
+extension LocationPin: Identifiable {
+	public var id: PersistentIdentifier { persistentModelID }
+}
+
 // MARK: - Pin Icon Shapes
 
 struct TentGlyph: View {
@@ -53,7 +57,7 @@ struct TentGlyph: View {
 			door.move(to: CGPoint(x: 8 * scale, y: 17 * scale))
 			door.addLine(to: CGPoint(x: 10 * scale, y: 12 * scale))
 			door.addLine(to: CGPoint(x: 12 * scale, y: 17 * scale))
-			context.stroke(door, with: .color(MeshKitColors.ink), style: StrokeStyle(lineWidth: sw, lineJoin: .round, lineCap: .round))
+			context.stroke(door, with: .color(MeshKitColors.ink), style: StrokeStyle(lineWidth: sw, lineCap: .round, lineJoin: .round))
 		}
 		.frame(width: size, height: size)
 	}
@@ -461,25 +465,40 @@ struct AddLocationSheet: View {
 
 	private func save() {
 		guard !name.isEmpty else { return }
+		let trimmed = name.trimmingCharacters(in: .whitespaces)
+		let coord = currentCoordinate(for: attachedToNodeNum)
 
 		if let pin = editingPin {
-			pin.name = name.trimmingCharacters(in: .whitespaces)
+			pin.name = trimmed
 			pin.icon = icon
 			pin.colorHex = selectedColorHex
-			pin.attachedToNodeNum = attachedToNodeNum
+			if pin.attachedToNodeNum != attachedToNodeNum {
+				pin.attachedToNodeNum = attachedToNodeNum
+				if let coord {
+					pin.latitudeI = coord.lat
+					pin.longitudeI = coord.lon
+				}
+			}
 			onSave(pin)
 		} else {
 			let pin = LocationPin(
-				name: name.trimmingCharacters(in: .whitespaces),
+				name: trimmed,
 				icon: icon,
 				colorHex: selectedColorHex,
 				attachedToNodeNum: attachedToNodeNum,
-				latitudeI: 0,
-				longitudeI: 0
+				latitudeI: coord?.lat ?? 0,
+				longitudeI: coord?.lon ?? 0
 			)
 			context.insert(pin)
 			onSave(pin)
 		}
 		dismiss()
+	}
+
+	private func currentCoordinate(for nodeNum: Int64) -> (lat: Int32, lon: Int32)? {
+		guard let node = availableNodes.first(where: { $0.num == nodeNum }),
+			  let position = node.positions.first(where: { $0.latest }) ?? node.positions.last
+		else { return nil }
+		return (position.latitudeI, position.longitudeI)
 	}
 }

@@ -9,6 +9,7 @@ struct ContentView: View {
 	@EnvironmentObject var accessoryManager: AccessoryManager
 	@State var router: Router
 	@State var isShowingDeviceOnboardingFlow: Bool = false
+	@AppStorage("meshkit.feature.familyMode") private var familyMode: Bool = false
 
 	init(appState: AppState, router: Router) {
 		self.appState = appState
@@ -16,25 +17,31 @@ struct ContentView: View {
 	}
 
 	var body: some View {
-		tabContent
-			.buddyCheckOverlay()
-			.sheet(
-				isPresented: $isShowingDeviceOnboardingFlow,
-				onDismiss: {
-					UserDefaults.firstLaunch = false
-					accessoryManager.startDiscovery()
-				}, content: {
-					DeviceOnboarding()
-				}
-			)
-			.onAppear {
-				if UserDefaults.firstLaunch {
-					isShowingDeviceOnboardingFlow = true
-				}
+		Group {
+			if familyMode {
+				MeshKitShellView()
+			} else {
+				tabContent
 			}
-			.onChange(of: UserDefaults.showDeviceOnboarding) {_, newValue in
-				isShowingDeviceOnboardingFlow = newValue
+		}
+		.buddyCheckOverlay()
+		.sheet(
+			isPresented: $isShowingDeviceOnboardingFlow,
+			onDismiss: {
+				UserDefaults.firstLaunch = false
+				accessoryManager.startDiscovery()
+			}, content: {
+				DeviceOnboarding()
 			}
+		)
+		.onAppear {
+			if UserDefaults.firstLaunch {
+				isShowingDeviceOnboardingFlow = true
+			}
+		}
+		.onChange(of: UserDefaults.showDeviceOnboarding) {_, newValue in
+			isShowingDeviceOnboardingFlow = newValue
+		}
 	}
 
 	// MARK: - Tab Reselection

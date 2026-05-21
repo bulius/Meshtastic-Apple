@@ -11,8 +11,22 @@ struct FriendMapView: View {
 	)
 	private var positions: [PositionEntity]
 
-	@State private var radarAngle: Double = 0
+	@Query(sort: \LocationPin.createdAt) private var pins: [LocationPin]
+
 	@State private var appeared = false
+	@State private var showAddPinSheet = false
+	@State private var editingPin: LocationPin?
+
+	private var availableNodes: [NodeInfoEntity] {
+		let nodes = positions.compactMap { $0.nodePosition }
+		// "You" first, then others in stable order
+		return nodes.sorted { lhs, rhs in
+			let lhsIsMe = lhs.myInfo != nil
+			let rhsIsMe = rhs.myInfo != nil
+			if lhsIsMe != rhsIsMe { return lhsIsMe }
+			return lhs.num < rhs.num
+		}
+	}
 
 	var body: some View {
 		ZStack {
@@ -21,13 +35,18 @@ struct FriendMapView: View {
 
 			// MapKit layer with node pins
 			if !positions.isEmpty {
-				FriendMapContent(positions: positions)
+				FriendMapContent(
+					positions: positions,
+					pins: pins,
+					onPinTap: { editingPin = $0 }
+				)
 			}
 
 			// Floating chrome
 			VStack {
 				floatingHeader
 				Spacer()
+				floatingFooter
 			}
 		}
 		.ignoresSafeArea()
@@ -36,6 +55,46 @@ struct FriendMapView: View {
 				appeared = true
 			}
 		}
+		.sheet(isPresented: $showAddPinSheet) {
+			AddLocationSheet(
+				editingPin: nil,
+				availableNodes: availableNodes,
+				onSave: { _ in },
+				onDelete: nil
+			)
+			.presentationDetents([.medium, .large])
+			.presentationDragIndicator(.visible)
+			.presentationBackground(MeshKitColors.canvas)
+		}
+		.sheet(item: $editingPin) { pin in
+			AddLocationSheet(
+				editingPin: pin,
+				availableNodes: availableNodes,
+				onSave: { _ in editingPin = nil },
+				onDelete: { p in
+					editingPin = nil
+					// SwiftData delete handled by AddLocationSheet's modelContext
+					if let context = pin.modelContext {
+						context.delete(p)
+						try? context.save()
+					}
+				}
+			)
+			.presentationDetents([.medium, .large])
+			.presentationDragIndicator(.visible)
+			.presentationBackground(MeshKitColors.canvas)
+		}
+	}
+
+	private var floatingFooter: some View {
+		HStack {
+			Spacer()
+			AddPinFAB { showAddPinSheet = true }
+				.disabled(availableNodes.isEmpty)
+				.opacity(availableNodes.isEmpty ? 0.4 : 1)
+		}
+		.padding(.horizontal, MeshKitSpacing.card)
+		.padding(.bottom, 96) // leaves room above the future tab bar
 	}
 
 	private var floatingHeader: some View {
@@ -135,6 +194,8 @@ struct RadarGridBackground: View {
 
 struct FriendMapContent: View {
 	let positions: [PositionEntity]
+	let pins: [LocationPin]
+	let onPinTap: (LocationPin) -> Void
 
 	@State private var camera: MapCameraPosition = .automatic
 	@State private var selectedNode: NodeInfoEntity?
@@ -169,6 +230,17 @@ struct FriendMapContent: View {
 					}
 				}
 			}
+
+			ForEach(pins) { pin in
+				let coord = CLLocationCoordinate2D(
+					latitude: Double(pin.latitudeI) / 1e7,
+					longitude: Double(pin.longitudeI) / 1e7
+				)
+				Annotation(pin.name, coordinate: coord, anchor: .bottom) {
+					LocationPinMarker(pin: pin)
+						.onTapGesture { onPinTap(pin) }
+				}
+			}
 		}
 		.mapStyle(.imagery)
 		.mapControls {
@@ -178,8 +250,79 @@ struct FriendMapContent: View {
 		.opacity(0.35) // Blend map under the radar grid
 		.allowsHitTesting(true)
 		.sheet(item: $selectedNode) { node in
-			PalDetailSheet(node: node)
+			PalDetailView(node: node)
 		}
+	}
+}
+
+// MARK: - Location Pin Map Marker
+
+struct LocationPinMarker: View {
+	let pin: LocationPin
+
+	@State private var appeared = false
+
+	var body: some View {
+		VStack(spacing: 4) {
+			PinGlyphView(icon: pin.icon, color: pin.color, size: 44)
+			Text(pin.name)
+				.font(.system(size: 11, weight: .bold, design: .rounded))
+				.foregroundStyle(MeshKitColors.ink)
+				.padding(.horizontal, 8)
+				.padding(.vertical, 2)
+				.background(.white)
+				.clipShape(Capsule())
+				.overlay(Capsule().stroke(MeshKitColors.ink, lineWidth: 1.5))
+				.meshKitSoftShadow()
+		}
+		.scaleEffect(appeared ? 1 : 0)
+		.animation(.spring(response: 0.5, dampingFraction: 0.6), value: appeared)
+		.onAppear { appeared = true }
+	}
+}
+
+// MARK: - Add Pin FAB
+
+struct AddPinFAB: View {
+	let action: () -> Void
+
+	@State private var pressed = false
+
+	var body: some View {
+		Button {
+			action()
+		} label: {
+			ZStack {
+				Circle()
+					.fill(MeshKitColors.primary)
+					.frame(width: 56, height: 56)
+					.shadow(color: MeshKitColors.shadowColor, radius: 8, x: 0, y: 3)
+
+				// "+" glyph, drawn (no SF Symbols)
+				Canvas { context, size in
+					let center = CGPoint(x: size.width / 2, y: size.height / 2)
+					let arm: CGFloat = size.width * 0.30
+					var horiz = Path()
+					horiz.move(to: CGPoint(x: center.x - arm, y: center.y))
+					horiz.addLine(to: CGPoint(x: center.x + arm, y: center.y))
+					var vert = Path()
+					vert.move(to: CGPoint(x: center.x, y: center.y - arm))
+					vert.addLine(to: CGPoint(x: center.x, y: center.y + arm))
+					context.stroke(horiz, with: .color(.white), style: StrokeStyle(lineWidth: 3.5, lineCap: .round))
+					context.stroke(vert, with: .color(.white), style: StrokeStyle(lineWidth: 3.5, lineCap: .round))
+				}
+				.frame(width: 56, height: 56)
+			}
+			.scaleEffect(pressed ? 0.92 : 1)
+		}
+		.buttonStyle(.plain)
+		.simultaneousGesture(
+			DragGesture(minimumDistance: 0)
+				.onChanged { _ in
+					if !pressed { withAnimation(.spring(response: 0.15)) { pressed = true } }
+				}
+				.onEnded { _ in withAnimation(.spring(response: 0.25)) { pressed = false } }
+		)
 	}
 }
 
@@ -231,99 +374,6 @@ struct PalMapMarker: View {
 		.onAppear {
 			appeared = true
 		}
-	}
-}
-
-// MARK: - Radar Sweep Animation (overlay on the grid)
-
-struct RadarSweepView: View {
-	let centerX: CGFloat
-	let centerY: CGFloat
-
-	@State private var ringScales: [CGFloat] = [0, 0, 0]
-
-	var body: some View {
-		ZStack {
-			ForEach(0..<3, id: \.self) { i in
-				Circle()
-					.strokeBorder(
-						Color(red: 242/255, green: 251/255, blue: 244/255).opacity(0.55),
-						style: StrokeStyle(lineWidth: 1.5, dash: [6, 4])
-					)
-					.frame(width: 200, height: 200)
-					.scaleEffect(ringScales[i])
-					.opacity(Double(1.0 - ringScales[i]) * 0.55)
-			}
-		}
-		.position(x: centerX, y: centerY)
-		.onAppear {
-			for i in 0..<3 {
-				withAnimation(
-					.easeOut(duration: 3.2)
-					.repeatForever(autoreverses: false)
-					.delay(Double(i) * 0.4)
-				) {
-					ringScales[i] = 1.0
-				}
-			}
-		}
-	}
-}
-
-// MARK: - Pal Detail Sheet (placeholder)
-
-struct PalDetailSheet: View {
-	let node: NodeInfoEntity
-
-	@Environment(\.dismiss) private var dismiss
-
-	var body: some View {
-		NavigationStack {
-			VStack(spacing: MeshKitSpacing.card) {
-				PalCharacterView(
-					color: MeshKitColors.palColor(for: node.num),
-					size: 120,
-					bobPhase: 0
-				)
-
-				Text(node.user?.longName ?? "Unknown Pal")
-					.font(MeshKitTypography.title)
-					.foregroundStyle(MeshKitColors.ink)
-
-				if let lastHeard = node.lastHeard {
-					Text("Saw them \(lastHeard, style: .relative) ago")
-						.font(MeshKitTypography.caption)
-						.foregroundStyle(MeshKitColors.inkSoft)
-				}
-
-				HStack(spacing: MeshKitSpacing.default) {
-					SignalHeartsView(
-						level: signalLevel(rssi: node.rssi, snr: node.snr),
-						size: 18
-					)
-
-					if node.hopsAway > 0 {
-						Text("Hopped through \(node.hopsAway) friend\(node.hopsAway == 1 ? "" : "s")")
-							.font(MeshKitTypography.caption)
-							.foregroundStyle(MeshKitColors.inkSoft)
-					}
-				}
-
-				Spacer()
-			}
-			.padding(.top, MeshKitSpacing.gap)
-			.background(MeshKitColors.canvas)
-			.navigationBarTitleDisplayMode(.inline)
-			.toolbar {
-				ToolbarItem(placement: .cancellationAction) {
-					Button("Done") { dismiss() }
-						.font(MeshKitTypography.body)
-						.foregroundStyle(MeshKitColors.primary)
-				}
-			}
-		}
-		.presentationDetents([.medium, .large])
-		.presentationDragIndicator(.visible)
 	}
 }
 
